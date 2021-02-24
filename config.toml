@@ -4,6 +4,7 @@ title = "Daniel-Andrei Minca"
 theme = "hello-friend-ng"
 paginate = 10
 DefaultContentLanguage = "en"
+publishDir = “docs”
 
 # Build settings
 buildDrafts  = false
