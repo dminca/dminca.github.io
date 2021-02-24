@@ -40,3 +40,13 @@ enableEmoji     = true
   images = [""]
 
   gitUrl = "https://github.com/dminca/dminca.github.io/commit/"
+
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name       = "About"
+    url        = "/about"
+  [[menu.main]]
+    identifier = "posts"
+    name       = "Posts"
+    url        = "/posts"
