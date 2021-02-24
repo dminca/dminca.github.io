@@ -1,3 +1,41 @@
-baseURL = "http://example.org/"
+baseURL = "https://dminca.github.io/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Daniel-Andrei Minca"
+theme = "hello-friend-ng"
+paginate = 10
+DefaultContentLanguage = "en"
+
+# Build settings
+buildDrafts  = false
+buildFuture  = false
+buildExpored = false
+canonifyURLs = true
+
+# metadata configuration
+enableRobotsTXT = true
+enableGitInfo   = true
+enableEmoji     = true
+
+[permalinks]
+  posts = "/:year/:month/:title/"
+
+[blackfriday]
+  hrefTargetBlank = true
+
+[taxonomies]
+  tag      = "tags"
+  category = "categories"
+
+[params]
+  dateform        = "2006-01-02"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04 -0700"
+
+  homeSubtitle = "Site Reliability Engineer"
+
+  description = "Daniel's blog"
+  keywords = ""
+  images = [""]
+
+  gitUrl = "https://github.com/dminca/dminca.github.io/commit/"
