@@ -41,6 +41,53 @@ enableEmoji     = true
 
   gitUrl = "https://github.com/dminca/dminca.github.io/commit/"
 
+  [params.logo]
+    logoText     = "$ rm -rfv --no-preserve-root /"
+
+  [[params.social]]
+    name = "telegram"
+    url  = "https://t.me/dminca"
+  [[params.social]]
+    name = "twitter"
+    url  = "https://twitter.com/daniell_andrei"
+  [[params.social]]
+    name = "github"
+    url  = "https://github.com/dminca"
+  [[params.social]]
+    name = "gitlab"
+    url  = "https://gitlab.com/dminca"
+  [[params.social]]
+    name = "stackoverflow"
+    url  = "https://stackoverflow.com/users/2733115/daniel-andrei-mincă"
+  [[params.social]]
+    name = "mastodon"
+    url  = "https://mastodontech.de/@dminca"
+  [[params.social]]
+    name = "pixelfed"
+    url  = "https://pixelfed.social/dminca"
+  [[params.social]]
+    name = "xing"
+    url  = "https://www.xing.com/profile/DanielAndrei_Minca"
+  [[params.social]]
+    name = "linkedin"
+    url  = "https://www.linkedin.com/in/mincadaniel"
+
+[languages]
+  [languages.en]
+    subtitle  = "Site Reliability Engineer"
+    weight    = 1
+    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+
+  [languages.ro]
+    subtitle  = "Site Reliability Engineer"
+    weight    = 2
+    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+
+  [languages.de]
+    subtitle  = "Site Reliability Engineer"
+    weight    = 3
+    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+
 [menu]
   [[menu.main]]
     identifier = "about"
