@@ -3,6 +3,7 @@ title: "Hello World"
 date: 2021-02-24T22:26:52+01:00
 toc: false
 images:
+comments: true
 tags:
   - untagged
 ---
@@ -68,3 +69,5 @@ class Foo:
 	def run(self):
 		RunForrestRun()  # run along!
 ```
+
+<script async src="https://comments.app/js/widget.js?3" data-comments-app-website="CQpz0OK6" data-limit="5" data-colorful="1" data-dark="1"></script>
