@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://dminca.github.io/</loc>
-    <lastmod>2021-02-25T08:58:48+01:00</lastmod>
+    <lastmod>2021-02-25T09:17:47+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ro"
@@ -20,14 +20,47 @@
                 href="https://dminca.github.io/"
                 />
   </url><url>
-    <loc>https://dminca.github.io/2021/02/hello-world/</loc>
-    <lastmod>2021-02-25T08:58:48+01:00</lastmod>
+    <loc>https://dminca.github.io/2021/02/istioconf-21/</loc>
+    <lastmod>2021-02-25T09:17:47+01:00</lastmod>
   </url><url>
     <loc>https://dminca.github.io/posts/</loc>
-    <lastmod>2021-02-25T08:58:48+01:00</lastmod>
+    <lastmod>2021-02-25T09:17:47+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ro"
+                href="https://dminca.github.io/ro/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://dminca.github.io/de/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://dminca.github.io/posts/"
+                />
+  </url><url>
+    <loc>https://dminca.github.io/2021/02/hello-world/</loc>
+    <lastmod>2021-02-24T22:26:52+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ro"
+                href="https://dminca.github.io/ro/2021/02/hello-world/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://dminca.github.io/de/2021/02/hello-world/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://dminca.github.io/2021/02/hello-world/"
+                />
   </url><url>
     <loc>https://dminca.github.io/tags/</loc>
-    <lastmod>2021-02-25T08:58:48+01:00</lastmod>
+    <lastmod>2021-02-24T22:26:52+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ro"
@@ -45,7 +78,22 @@
                 />
   </url><url>
     <loc>https://dminca.github.io/tags/untagged/</loc>
-    <lastmod>2021-02-25T08:58:48+01:00</lastmod>
+    <lastmod>2021-02-24T22:26:52+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ro"
+                href="https://dminca.github.io/ro/tags/untagged/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://dminca.github.io/de/tags/untagged/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://dminca.github.io/tags/untagged/"
+                />
   </url><url>
     <loc>https://dminca.github.io/about/</loc>
     <lastmod>2021-02-24T22:43:57+01:00</lastmod>
