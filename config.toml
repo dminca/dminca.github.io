@@ -41,6 +41,9 @@ enableEmoji     = true
 
   gitUrl = "https://github.com/dminca/dminca.github.io/commit/"
 
+  # show links to other posts
+  disableReadOtherPosts = false
+
   [params.logo]
     logoText     = "$ rm -rfv --no-preserve-root /"
 
