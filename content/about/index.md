@@ -22,13 +22,24 @@ After gaining some more XP with Linux/UNIX in general, getting used with the com
 utilities et. al., I've received an offer to join [Gameloft][2], a gaming company based in
 Montreal :canada: as a **DevOps Engineer**.
 
+> 99 % of most complicated issues have the most simplest solution
+
 Here I've participated in quite some amazing projects, even helped create a Data Lake
 but also automated quite a lot of workflows in there via CI/CD pipelines. I've learned
 quite a lot from the wonderful people there and I'm still in touch with some of them even
 today.
 
 Little did I know that [GfK SE][3] :de: was looking for a **Site Reliability Engineer**, I scored
-the interview
+the technical interview and decided to relocate in :de: and work with some amazing people.
+
+# Hobbies :dizzy:
+
+When I'm not behind a computer, I usually go hiking, plus, in :de: trust me, there are a lot of hiking
+areas. I like capturing each precious moments with my Canon EOS 1100D whenever possible, when not, the
+ iPhone is also quick helpful.
+
+About my personality, I can't say much, we can probably meet for a :beer: and discuss about it more,
+I'll be glad to hear about you as well :relieved:
 
 [1]: https://marketsworld.com
 [2]: https://www.gameloft.com/de/
