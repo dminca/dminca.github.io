@@ -38,7 +38,7 @@ Hier ist ein einfacher YAML Dokument 😄
 <meta itemprop="description" content="Probieren wir erstmal die Platforme ob sie in gute zustand ist
 Hier ist ein einfacher YAML Dokument 😄
 {{- if (and (ne (.Values.ui.ingress.enabled | toString ) &#34;-&#34;) .Values.ui.ingress.enabled) }} {{- $serviceName := printf &#34;%s-%s&#34; (include &#34;vault.fullname&#34; .) &#34;ui&#34; -}} apiVersion: extensions/v1beta1 kind: Ingress metadata: name: {{ template &#34;vault.fullname&#34; . }}-ingress namespace: {{ .Release.Namespace }} labels: app: {{ template &#34;vault.name&#34; . }} chart: {{ template &#34;vault.chart&#34; . }} heritage: {{ .Release.Service }} release: {{ ."><meta itemprop="datePublished" content="2021-02-24T22:26:52&#43;01:00" />
-<meta itemprop="dateModified" content="2021-02-24T22:26:52&#43;01:00" />
+<meta itemprop="dateModified" content="2021-02-25T09:28:58&#43;01:00" />
 <meta itemprop="wordCount" content="183"><meta itemprop="image" content="https://dminca.github.io/"/>
 <meta itemprop="keywords" content="untagged," />
 <meta name="twitter:card" content="summary_large_image"/>
@@ -234,8 +234,22 @@ Hier ist ein einfacher YAML Dokument 😄
 
          
           
+            
+              (Letzte Aktualisierung: 2021-02-25 09:28 &#43;0100)
+            
+          
         
       </p>
+        <p>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-git-commit">
+            <circle cx="12" cy="12" r="4"></circle>
+            <line x1="1.05" y1="12" x2="7" y2="12"></line>
+            <line x1="17.01" y1="12" x2="22.96" y2="12"></line>
+          </svg>
+
+          <a href="https://github.com/dminca/dminca.github.io/commit/bfd2e1d0e6e49ffc505563367276a3b183d96077" target="_blank" rel="noopener">bfd2e1d</a>
+          @ 2021-02-25
+        </p>
     </div>
 
     
