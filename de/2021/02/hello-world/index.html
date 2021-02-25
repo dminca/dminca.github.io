@@ -1,0 +1,65 @@
+<!doctype html><html lang=de><head><meta charset=utf-8><meta http-equiv=x-ua-compatible content="ie=edge"><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta name=author content><meta name=description content="Probieren wir erstmal die Platforme ob sie in gute zustand ist
+Hier ist ein einfacher YAML Dokument 😄
+{{- if (and (ne (.Values.ui.ingress.enabled | toString ) &amp;#34;-&amp;#34;) .Values.ui.ingress.enabled) }} {{- $serviceName := printf &amp;#34;%s-%s&amp;#34; (include &amp;#34;vault.fullname&amp;#34; .) &amp;#34;ui&amp;#34; -}} apiVersion: extensions/v1beta1 kind: Ingress metadata: name: {{ template &amp;#34;vault.fullname&amp;#34; . }}-ingress namespace: {{ .Release.Namespace }} labels: app: {{ template &amp;#34;vault.name&amp;#34; . }} chart: {{ template &amp;#34;vault.chart&amp;#34; . }} heritage: {{ .Release.Service }} release: {{ ."><meta name=keywords content=",untagged"><meta name=robots content="noodp"><meta name=theme-color content><link rel=canonical href=https://dminca.github.io/de/2021/02/hello-world/><title>Hello World :: Daniel-Andrei Minca — Site Reliability Engineer</title><link href=https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/css/flag-icon.min.css rel=stylesheet type=text/css><link rel=stylesheet href=https://dminca.github.io/main.d7bdd8ee18bfbf4c605488a7e5b1b92cd980dfeed2bdaeab4dd5e931a7a78bc0.css><meta itemprop=name content="Hello World"><meta itemprop=description content="Probieren wir erstmal die Platforme ob sie in gute zustand ist
+Hier ist ein einfacher YAML Dokument 😄
+{{- if (and (ne (.Values.ui.ingress.enabled | toString ) &#34;-&#34;) .Values.ui.ingress.enabled) }} {{- $serviceName := printf &#34;%s-%s&#34; (include &#34;vault.fullname&#34; .) &#34;ui&#34; -}} apiVersion: extensions/v1beta1 kind: Ingress metadata: name: {{ template &#34;vault.fullname&#34; . }}-ingress namespace: {{ .Release.Namespace }} labels: app: {{ template &#34;vault.name&#34; . }} chart: {{ template &#34;vault.chart&#34; . }} heritage: {{ .Release.Service }} release: {{ ."><meta itemprop=datePublished content="2021-02-24T22:26:52+01:00"><meta itemprop=dateModified content="2021-02-25T09:28:58+01:00"><meta itemprop=wordCount content="183"><meta itemprop=image content="https://dminca.github.io/"><meta itemprop=keywords content="untagged,"><meta name=twitter:card content="summary_large_image"><meta name=twitter:image content="https://dminca.github.io/"><meta name=twitter:title content="Hello World"><meta name=twitter:description content="Probieren wir erstmal die Platforme ob sie in gute zustand ist
+Hier ist ein einfacher YAML Dokument 😄
+{{- if (and (ne (.Values.ui.ingress.enabled | toString ) &#34;-&#34;) .Values.ui.ingress.enabled) }} {{- $serviceName := printf &#34;%s-%s&#34; (include &#34;vault.fullname&#34; .) &#34;ui&#34; -}} apiVersion: extensions/v1beta1 kind: Ingress metadata: name: {{ template &#34;vault.fullname&#34; . }}-ingress namespace: {{ .Release.Namespace }} labels: app: {{ template &#34;vault.name&#34; . }} chart: {{ template &#34;vault.chart&#34; . }} heritage: {{ .Release.Service }} release: {{ ."><meta property="article:published_time" content="2021-02-24 22:26:52 +0100 +0100"></head><body><div class=container><header class=header><span class=header__inner><a href=https://dminca.github.io/de style=text-decoration:none><div class=logo><span class=logo__mark>></span>
+<span class=logo__text>$ rm -rfv --no-preserve-root /</span>
+<span class=logo__cursor></span></div></a><span class=header__right><nav class=menu><ul class=menu__inner><li><a href=https://dminca.github.io/de/about>About</a></li><li><a href=https://dminca.github.io/de/posts>Posts</a></li></ul></nav><span class=menu-trigger><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"/><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/></svg></span></span></span></header><div class=content><main class=post><div class=post-info><p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-clock"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>Eine Minute
+| Auch verfügbar auf
+<a href=https://dminca.github.io/2021/02/hello-world/><span class="flag flag-icon flag-icon-gb flag-icon-squared"></span></a><a href=https://dminca.github.io/ro/2021/02/hello-world/><span class="flag flag-icon flag-icon- flag-icon-squared"></span></a></p></div><article><h1 class=post-title><a href=https://dminca.github.io/de/2021/02/hello-world/>Hello World</a></h1><div class=post-content><p>Probieren wir erstmal die Platforme ob sie in gute zustand ist</p><p>Hier ist ein einfacher YAML Dokument 😄</p><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-yaml data-lang=yaml>{{- <span style=color:#ae81ff>if (and (ne (.Values.ui.ingress.enabled | toString ) &#34;-&#34;) .Values.ui.ingress.enabled) }}</span>
+{{- <span style=color:#ae81ff>$serviceName := printf &#34;%s-%s&#34; (include &#34;vault.fullname&#34; .) &#34;ui&#34; -}}</span>
+<span style=color:#f92672>apiVersion</span>: <span style=color:#ae81ff>extensions/v1beta1</span>
+<span style=color:#f92672>kind</span>: <span style=color:#ae81ff>Ingress</span>
+<span style=color:#f92672>metadata</span>:
+  <span style=color:#f92672>name</span>: {{ <span style=color:#ae81ff>template &#34;vault.fullname&#34; . }}-ingress</span>
+  <span style=color:#f92672>namespace</span>: {{ <span style=color:#ae81ff>.Release.Namespace }}</span>
+  <span style=color:#f92672>labels</span>:
+    <span style=color:#f92672>app</span>: {{ <span style=color:#ae81ff>template &#34;vault.name&#34; . }}</span>
+    <span style=color:#f92672>chart</span>: {{ <span style=color:#ae81ff>template &#34;vault.chart&#34; . }}</span>
+    <span style=color:#f92672>heritage</span>: {{ <span style=color:#ae81ff>.Release.Service }}</span>
+    <span style=color:#f92672>release</span>: {{ <span style=color:#ae81ff>.Release.Name }}</span>
+  {{- <span style=color:#ae81ff>if .Values.ui.ingress.annotations }}</span>
+  <span style=color:#f92672>annotations</span>:
+{{ <span style=color:#ae81ff>toYaml .Values.ui.ingress.annotations | indent 4 }}</span>
+  {{- <span style=color:#ae81ff>end }}</span>
+<span style=color:#f92672>spec</span>:
+  <span style=color:#f92672>rules</span>:
+    {{- <span style=color:#ae81ff>range .Values.ui.ingress.hosts }}</span>
+    - <span style=color:#f92672>host</span>: {{ <span style=color:#ae81ff>. }}</span>
+      <span style=color:#f92672>http</span>:
+        <span style=color:#f92672>paths</span>:
+          - <span style=color:#f92672>backend</span>:
+              <span style=color:#f92672>serviceName</span>: {{ <span style=color:#ae81ff>$serviceName }}</span>
+              <span style=color:#f92672>servicePort</span>: <span style=color:#ae81ff>http</span>
+    {{- <span style=color:#ae81ff>end -}}</span>
+  {{- <span style=color:#ae81ff>if .Values.ui.ingress.tls }}</span>
+  <span style=color:#f92672>tls</span>:
+    {{- <span style=color:#ae81ff>range $value := .Values.ui.ingress.tls }}</span>
+    - <span style=color:#f92672>hosts</span>:
+      {{- <span style=color:#ae81ff>range $value.hosts }}</span>
+      - {{ <span style=color:#ae81ff>. }}</span>
+      {{- <span style=color:#ae81ff>end }}</span>
+      <span style=color:#f92672>secretName</span>: {{ <span style=color:#ae81ff>$value.secretName }}</span>
+    {{- <span style=color:#ae81ff>end }}</span>
+  {{- <span style=color:#ae81ff>end }}</span>
+{{- <span style=color:#ae81ff>end }}</span>
+</code></pre></div><h2 id=ein-bisschen-python-für-die-überraschung-element>Ein bisschen Python für die Überraschung Element</h2><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-python data-lang=python><span style=color:#75715e>#!/usr/bin/python3</span>
+
+<span style=color:#f92672>from</span> engine <span style=color:#f92672>import</span> RunForrestRun
+
+<span style=color:#e6db74>&#34;&#34;&#34;Test code for syntax highlighting!&#34;&#34;&#34;</span>
+
+<span style=color:#66d9ef>class</span> <span style=color:#a6e22e>Foo</span>:
+	<span style=color:#66d9ef>def</span> __init__(self, var):
+		self<span style=color:#f92672>.</span>var <span style=color:#f92672>=</span> var
+		self<span style=color:#f92672>.</span>run()
+
+	<span style=color:#66d9ef>def</span> <span style=color:#a6e22e>run</span>(self):
+		RunForrestRun()  <span style=color:#75715e># run along!</span>
+</code></pre></div></div></article><hr><div class=post-info><p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag meta-icon"><path d="M20.59 13.41l-7.17 7.17a2 2 0 01-2.83.0L2 12V2h10l8.59 8.59a2 2 0 010 2.82z"/><line x1="7" y1="7" x2="7" y2="7"/></svg><span class=tag><a href=https://dminca.github.io/de/tags/untagged/>untagged</a></span></p><p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text"><path d="M14 2H6A2 2 0 004 4v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>183 Wörter</p><p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>2021-02-24 21:26 +0000
+(Letzte Aktualisierung: 2021-02-25 08:28 +0000)</p><p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-git-commit"><circle cx="12" cy="12" r="4"/><line x1="1.05" y1="12" x2="7" y2="12"/><line x1="17.01" y1="12" x2="22.96" y2="12"/></svg><a href=https://github.com/dminca/dminca.github.io/commit/bfd2e1d0e6e49ffc505563367276a3b183d96077 target=_blank rel=noopener>bfd2e1d</a>
+@ 2021-02-25</p></div><div id=comments><script async src=https://comments.app/js/widget.js?3 data-comments-app-website=dr9fzaPt data-limit=5 data-page-id=309ca8d53ce6575f5452ce3daf988c76 data-colorful=1 data-dark=1></script></div></main></div><footer class=footer><div class=footer__inner><div class=footer__content><span>&copy; 2021</span>
+<span><a href=https://creativecommons.org/licenses/by-nc/4.0/ target=_blank rel=noopener>CC BY-NC 4.0</a></span><span><a href=https://dminca.github.io/de/posts/index.xml target=_blank title=rss><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 20 20" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss"><path d="M4 11a9 9 0 019 9"/><path d="M4 4a16 16 0 0116 16"/><circle cx="5" cy="19" r="1"/></svg></a></span></div></div><div class=footer__inner><div class=footer__content><span>Powered by <a href=http://gohugo.io>Hugo</a></span>
+<span>Made with &#10084; by <a href=https://github.com/rhazdon>Djordje Atlialp</a></span></div></div></footer></div><script type=text/javascript src=https://dminca.github.io/bundle.min.2ce64ea6ea44a72b13dd812fc2eb5cca3efe878cce258a47c137c17edf46e0602a05e422b618a5b80b5939c731b7a293351c2f2222a21f6ee27e54a8448dd20e.js integrity="sha512-LOZOpupEpysT3YEvwutcyj7+h4zOJYpHwTfBft9G4GAqBeQithiluAtZOccxt6KTNRwvIiKiH27iflSoRI3SDg=="></script></body></html>
