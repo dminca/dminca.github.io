@@ -13,9 +13,11 @@ tags:
 - security
 ---
 
-ZapCon was scheduled on 9th March 2021
+[ZapCon '21][1] was scheduled on 9th March 2021
 
 # What was interesting
 
 # Wrap up
 
+
+[1]: https://zapcon.io
