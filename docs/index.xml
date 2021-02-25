@@ -25,7 +25,9 @@ This is a sample YAML manifest 😄
       <pubDate>Wed, 24 Feb 2021 22:24:54 +0100</pubDate>
       
       <guid>https://dminca.github.io/about/</guid>
-      <description>I write sins not tragedies</description>
+      <description>What started as a curiosity to decompose everything as a child, materialised itself into the first computer I owned. That&amp;rsquo;s when I was continously breaking and fixing it multiple times made me discover how everything works.
+I&amp;rsquo;m Daniel, a Site Reliability Engineer working @ GfK SE based in Germany, let me invite you into my world ✨
+My experience 😎 The first real IT job I landed was a Ruby on Rails developer at MarketsWorld which was a trading platform based in Isle of Man 🇬🇧.</description>
     </item>
     
   </channel>

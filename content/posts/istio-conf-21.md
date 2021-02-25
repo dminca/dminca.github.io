@@ -15,8 +15,8 @@ categories:
 - Conferences
 ---
 
-For those who might not know, [IstioCon '21][1] was happening previous week 22-26 Feb 2021. Luckily the videos are still there, so if you want to check what's
-been discussed you can still do it, it's nice that you can login with Apple ID also :wink:
+ICYMI, [IstioCon '21][1] was happening previous week 22-26 Feb 2021. Luckily the videos are still there, so if you want to check what's
+been discussed you can still do it, it's nice that you can login with  Apple ID also :wink:
 
 # What I found interesting
 

@@ -19,5 +19,16 @@ Iată un simplu manifest YAML 😄
 {{- if (and (ne (.Values.ui.ingress.enabled | toString ) &amp;#34;-&amp;#34;) .Values.ui.ingress.enabled) }} {{- $serviceName := printf &amp;#34;%s-%s&amp;#34; (include &amp;#34;vault.fullname&amp;#34; .) &amp;#34;ui&amp;#34; -}} apiVersion: extensions/v1beta1 kind: Ingress metadata: name: {{ template &amp;#34;vault.fullname&amp;#34; . }}-ingress namespace: {{ .Release.Namespace }} labels: app: {{ template &amp;#34;vault.name&amp;#34; . }} chart: {{ template &amp;#34;vault.chart&amp;#34; . }} heritage: {{ .Release.Service }} release: {{ .</description>
     </item>
     
+    <item>
+      <title>Despre mine</title>
+      <link>https://dminca.github.io/ro/about/</link>
+      <pubDate>Wed, 24 Feb 2021 22:24:54 +0100</pubDate>
+      
+      <guid>https://dminca.github.io/ro/about/</guid>
+      <description>Ce-a început cu o pură curiozitate de a decompune totul de mic copil, s-a materializat cu primul computer ce l-am deținut. Prin stricarea și repararea lui continuă am descoperit cum funcționează totul cu de-amănuntul.
+Sunt Daniel, un Site Reliability Engineer @ GfK SE actualmente în Germania, permiteți-mi să vă invit în lumea mea ✨
+Experiență 😎 Primul meu job real în IT a fost ca Ruby on Rails developer la MarketsWorld ce era o platformă de trading al cărei HQ era în Isle of Man 🇬🇧.</description>
+    </item>
+    
   </channel>
 </rss>
