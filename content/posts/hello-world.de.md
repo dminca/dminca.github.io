@@ -69,3 +69,19 @@ class Foo:
 	def run(self):
 		RunForrestRun()  # run along!
 ```
+
+{{< highlight python "linenos=table,hl_lines=3 5-7,linenostart=1" >}}
+#!/usr/bin/python3
+
+from engine import RunForrestRun
+
+"""Test code for syntax highlighting!"""
+
+class Foo:
+	def __init__(self, var):
+		self.var = var
+		self.run()
+
+	def run(self):
+		RunForrestRun()  # run along!
+{{< / highlight >}}
