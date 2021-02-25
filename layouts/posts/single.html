@@ -157,7 +157,7 @@
 
     {{ if not (eq .Params.Comments "false") }}
       <div id="comments">
-        <script async src="https://comments.app/js/widget.js?3" data-comments-app-website="dr9fzaPt" data-limit="5" data-page-id="{{ .File.UniqueID }}" data-colorful="1" data-dark="1"></script>
+        <script async src="https://comments.app/js/widget.js?3" data-comments-app-website="dr9fzaPt" data-limit="5" data-page-id="{{ .Title | replaceRE " " "-" | lower }}" data-colorful="1" data-dark="1"></script>
       </div>
     {{ end }}
 
