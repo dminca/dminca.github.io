@@ -5,9 +5,17 @@ draft: true
 comments: true
 toc: false
 images:
+tags:
+- cncf
+- cloudnative
+- kubernetes
+- sre
+- devops
+categories:
+- Conferences
 ---
 
-For those who might not know, IstioCon was happening previous week 22-26 Feb '21. Luckily the videos are still there, so if you want to check what's
+For those who might not know, IstioCon was happening previous week 22-26 Feb 2021. Luckily the videos are still there, so if you want to check what's
 been discussed you can still do it https://events.istio.io/istiocon-2021/, it's nice that you can login with Apple ID also :wink:
 
 # What I found interesting
