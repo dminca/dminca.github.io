@@ -3,7 +3,7 @@ title: "Despre mine"
 date: 2021-02-24T22:24:54+01:00
 ---
 
-Ce-a început cu o pură curiozitate de a decompune totul de mic copil, s-a materializat
+Ce-a început cu o pură curiozitate de a descompune totul de mic copil, s-a materializat
 cu primul computer ce l-am deținut. Prin stricarea și repararea lui continuă am
 *descoperit* cum funcționează totul cu de-amănuntul.
 
