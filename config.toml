@@ -85,7 +85,7 @@ enableEmoji     = true
     url  = "https://www.xing.com/profile/DanielAndrei_Minca"
   [[params.social]]
     name = "linkedin"
-    url  = "https://www.linkedin.com/in/mincadaniel"
+    url  = "https://www.linkedin.com/in/dminca"
 
 [languages]
   [languages.en]
