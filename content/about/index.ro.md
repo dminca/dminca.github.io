@@ -31,12 +31,12 @@ Am învățat foarte multe de la colegii excepționali cu care am ținut legătu
 în practică.
 
 După o seamă de timp, [GfK SE][3] :de: căuta un **Site Reliability Engineer**, am trecut
-interviul tehnic și ne-am decis împreună cu soția mea să ne relocăm în :de:.
+interviul tehnic și am decis împreună cu soția mea să ne relocăm în :de:.
 
 # Hobiuri :dizzy:
 
 Când nu sunt în spatele monitorului de obicei mă duc în drumeții, iar în :de:, chiar sunt foarte multe
-locuri excepționale. Îmi place să capturez fiecare moment prețios cu aparatul meu Canon EOS 1100D când
+locuri excepționale. Îmi place să imortalizez fiecare moment prețios cu aparatul meu Canon EOS 1100D când
 se poate, iar când nu, și  iPhone-ul este util.
 
 Despre personalitatea mea nu prea pot să vă scriu tare multe, hai mai bine să ne vedem la o :beer:
