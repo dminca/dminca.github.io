@@ -17,6 +17,9 @@ enableRobotsTXT = true
 enableGitInfo   = true
 enableEmoji     = true
 
+[author]
+  name = "Daniel-Andrei Minca"
+
 [permalinks]
   posts = "/:year/:month/:title/"
 
@@ -45,6 +48,8 @@ enableEmoji     = true
   disableReadOtherPosts = false
 
   enableSharingButtons = true
+
+  enableAnalytics = true
 
   [params.logo]
     logoText     = "$ rm -rfv --no-preserve-root /"
