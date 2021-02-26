@@ -54,6 +54,11 @@ enableEmoji     = true
   [params.logo]
     logoText     = "$ rm -rfv --no-preserve-root /"
 
+  [params.favicon.color]
+    mask = "#1b1c1d"
+    msapplication = "#1b1c1d"
+    theme = "#1b1c1d"
+
   [[params.social]]
     name = "telegram"
     url  = "https://t.me/dminca"
