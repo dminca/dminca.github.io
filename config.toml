@@ -44,6 +44,8 @@ enableEmoji     = true
   # show links to other posts
   disableReadOtherPosts = false
 
+  enableSharingButtons = true
+
   [params.logo]
     logoText     = "$ rm -rfv --no-preserve-root /"
 
