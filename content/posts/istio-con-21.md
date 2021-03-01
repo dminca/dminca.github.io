@@ -64,7 +64,7 @@ been discussed you can still do it, it's nice that you can login with  Apple 
 ## [Debugging Istio within the Department of Defense][8]
 ![Debugging Istio within the Department of Defense](/001.png)
 * Nick Nellis & Adam Toy gave this presentation, most interesting part was Adam's, here's why
-* [DevSecOps managed services][9], team name's Platform One
+* [DevSecOps managed services][8], team name's Platform One
 * plain and simple application flow diagram (top to bottom)
 * did a clear demo showing off how he introduced faults
 * really valuable that often he showed on the slides where we're at in the whole app flow
