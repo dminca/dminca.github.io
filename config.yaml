@@ -1,0 +1,90 @@
+baseURL: 'https://dminca.github.io/'
+languageCode: en-us
+title: Daniel-Andrei Minca
+theme: hello-friend-ng
+paginate: 10
+DefaultContentLanguage: en
+publishDir: docs
+buildDrafts: false
+buildFuture: false
+buildExpored: false
+canonifyURLs: true
+enableRobotsTXT: true
+enableGitInfo: true
+enableEmoji: true
+author:
+  name: Daniel-Andrei Minca
+permalinks:
+  posts: '/:year/:month/:title/'
+blackfriday:
+  hrefTargetBlank: true
+taxonomies:
+  tag: tags
+  category: categories
+params:
+  dateform: '2006-01-02'
+  dateformShort: Jan 2
+  dateformNum: '2006-01-02'
+  dateformNumTime: '2006-01-02 15:04 -0700'
+  homeSubtitle: Site Reliability Engineer
+  description: Daniel's blog
+  keywords: ''
+  images: ['']
+  gitUrl: 'https://github.com/dminca/dminca.github.io/commit/'
+  disableReadOtherPosts: false
+  enableSharingButtons: true
+  enableAnalytics: true
+  logo:
+    logoText: "$ rm -rfv --no-preserve-root /"
+  favicon:
+    color:
+      mask: '#1b1c1d'
+      msapplication: '#1b1c1d'
+      theme: '#1b1c1d'
+  social:
+    - name: telegram
+      url: 'https://t.me/dminca'
+    - name: twitter
+      url: 'https://twitter.com/daniell_andrei'
+    - name: github
+      url: 'https://github.com/dminca'
+    - name: gitlab
+      url: 'https://gitlab.com/dminca'
+    - name: stackoverflow
+      url: 'https://stackoverflow.com/users/2733115/daniel-andrei-mincă'
+    - name: mastodon
+      url: 'https://mastodontech.de/@dminca'
+    - name: pixelfed
+      url: 'https://pixelfed.social/dminca'
+    - name: xing
+      url: 'https://www.xing.com/profile/DanielAndrei_Minca'
+    - name: linkedin
+      url: 'https://www.linkedin.com/in/dminca'
+languages:
+  en:
+    subtitle: Site Reliability Engineer
+    weight: 1
+    copyright: >-
+      <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank"
+      rel="noopener">CC BY-NC 4.0</a>
+  ro:
+    title: Daniel-Andrei Mincă
+    subtitle: Site Reliability Engineer
+    weight: 2
+    copyright: >-
+      <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank"
+      rel="noopener">CC BY-NC 4.0</a>
+  de:
+    subtitle: Site Reliability Engineer
+    weight: 3
+    copyright: >-
+      <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank"
+      rel="noopener">CC BY-NC 4.0</a>
+menu:
+  main:
+    - identifier: about
+      name: About
+      url: /about
+    - identifier: posts
+      name: Posts
+      url: /posts
