@@ -4,6 +4,6 @@ date: {{ .Date }}
 draft: true
 comments: false
 toc: false
-images:
+Cover: 
 ---
 
