@@ -1,10 +1,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Daniel-Andrei Minca</title><link>https://dminca.github.io/posts/</link><description>Recent content in Posts on Daniel-Andrei Minca</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>&lt;a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0&lt;/a></copyright><lastBuildDate>Thu, 25 Feb 2021 09:17:47 +0100</lastBuildDate><atom:link href="https://dminca.github.io/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>IstioCon 21</title><link>https://dminca.github.io/2021/02/istiocon-21/</link><pubDate>Thu, 25 Feb 2021 09:17:47 +0100</pubDate><guid>https://dminca.github.io/2021/02/istiocon-21/</guid><description>ICYMI, IstioCon &amp;lsquo;21 was happening previous week 22-26 Feb 2021. Luckily the videos are still there, so if you want to check what&amp;rsquo;s been discussed you can still do it, it&amp;rsquo;s nice that you can login with  Apple ID also 😉
-Talks I found interesting I want to sketch a mesh for you by Christian Posta ✨ installing the Istio control plane with the revision flag istioctl install .</description><content type="html"><![CDATA[<p>ICYMI, <a href="https://events.istio.io/istiocon-2021">IstioCon &lsquo;21</a> was happening previous week 22-26 Feb 2021. Luckily the videos are still there, so if you want to check what&rsquo;s
+Talks I found interesting I want to sketch a mesh for you - by Christian Posta ✨ installing the Istio control plane with the revision flag istioctl install .</description><content type="html"><![CDATA[<p>ICYMI, <a href="https://events.istio.io/istiocon-2021">IstioCon &lsquo;21</a> was happening previous week 22-26 Feb 2021. Luckily the videos are still there, so if you want to check what&rsquo;s
 been discussed you can still do it, it&rsquo;s nice that you can login with  Apple ID also 😉</p>
 <h1 id="talks-i-found-interesting">Talks I found interesting</h1>
-<p><img src="002.png" alt="I want to sketch a mesh for you"></p>
-<ul>
-<li><a href="https://www.crowdcast.io/e/istiocon-2021/3">I want to sketch a mesh for you</a> by Christian Posta
+<h2 id="i-want-to-sketch-a-mesh-for-you2---by-christian-posta"><a href="https://www.crowdcast.io/e/istiocon-2021/3">I want to sketch a mesh for you</a> - by Christian Posta</h2>
+<p><img src="/002.png" alt="I want to sketch a mesh for you"></p>
 <ul>
 <li>✨ installing the Istio control plane with the revision flag <code>istioctl install ... --revision 1-0-3</code>
 <ul>
@@ -15,14 +14,13 @@ the service mesh is a critical component of that system</li>
 </li>
 <li>was doing the <a href="https://github.com/layer5io/istio-service-mesh-workshop">istio-workshop</a></li>
 <li>using HashiCorp Vault as your CA</li>
+<li>cool  AirPods Max, really good sound quality 👍</li>
 </ul>
-</li>
-<li><a href="https://www.crowdcast.io/e/istiocon-2021/5">Improving Security with Istio</a>
+<h2 id="improving-security-with-istio4"><a href="https://www.crowdcast.io/e/istiocon-2021/5">Improving Security with Istio</a></h2>
 <ul>
 <li>Alex Soto was screaming a lot, was funny</li>
 </ul>
-</li>
-<li><a href="https://www.crowdcast.io/e/istiocon-2021/21">Taming Istio configuration with Helm</a>
+<h2 id="taming-istio-configuration-with-helm5"><a href="https://www.crowdcast.io/e/istiocon-2021/21">Taming Istio configuration with Helm</a></h2>
 <ul>
 <li>Ryan Michela showed off here other sides of Helm:
 <ul>
@@ -41,21 +39,15 @@ intermitent installation failures caused by race conditions in K8s</li>
 </li>
 <li>used <a href="bookinfo">bookinfo</a> in the demos</li>
 </ul>
-</li>
-</ul>
-<p><img src="003.png" alt="Deep dive into Istio Auth Policies"></p>
-<ul>
-<li><a href="https://www.crowdcast.io/e/istiocon-2021/24">Deep dive into Istio Auth Policies</a>
+<h2 id="deep-dive-into-istio-auth-policies6"><a href="https://www.crowdcast.io/e/istiocon-2021/24">Deep dive into Istio Auth Policies</a></h2>
+<p><img src="/003.png" alt="Deep dive into Istio Auth Policies"></p>
 <ul>
 <li>✨ Lawrence Gadban just showed me that Istio has OPA (Open Policy Agent) built-in;
 not the real OPA, but it mimics that functionality with the Auth Policies</li>
 <li>Istio mTLS == Envoy at its core</li>
 <li><a href="spiffe">SPIFFE</a> &ndash; doesn&rsquo;t matter what the accronyms mean, keep in mind that it&rsquo;s there to
 remove the need for app-level authentication &amp; complex network level ACL config</li>
-</ul>
-</li>
-<li><a href="https://www.crowdcast.io/e/istiocon-2021/35">Istio Debugging: Finding and fixing issues in a multi-cluster service graph</a>
-<ul>
+<li><a href="https://www.crowdcast.io/e/istiocon-2021/35">Istio Debugging: Finding and fixing issues in a multi-cluster service graph</a></li>
 <li>Eitan &amp; Scott emphasized the fact that Service Mesh provides telemetry data OOTB</li>
 <li>your Single Pane of Glass (SPOG) collects telemetry data accross multiple envs</li>
 <li>what caught my eye was their (solo.io) definition for Single Pane of Glass:
@@ -71,11 +63,8 @@ remove the need for app-level authentication &amp; complex network level ACL con
 </ul>
 </li>
 </ul>
-</li>
-</ul>
-<p><img src="001.png" alt="Debugging Istio within the Department of Defense"></p>
-<ul>
-<li><a href="https://software.af.mil/team/platformone/">Debugging Istio within the Department of Defense</a>
+<h2 id="debugging-istio-within-the-department-of-defense8"><a href="https://software.af.mil/team/platformone/">Debugging Istio within the Department of Defense</a></h2>
+<p><img src="/001.png" alt="Debugging Istio within the Department of Defense"></p>
 <ul>
 <li>Nick Nellis &amp; Adam Toy gave this presentation, most interesting part was Adam&rsquo;s, here&rsquo;s why</li>
 <li>[DevSecOps managed services][9], team name&rsquo;s Platform One</li>
@@ -84,8 +73,6 @@ remove the need for app-level authentication &amp; complex network level ACL con
 <li>really valuable that often he showed on the slides where we&rsquo;re at in the whole app flow</li>
 <li>check the Response Headers of the 404 request in the WebInspector browser</li>
 <li>✨ covers 90% of the issues <a href="analyze">troubleshooting Istio</a> -&gt; <code>istioctl analyze</code></li>
-</ul>
-</li>
 </ul>
 <h1 id="wrap-up">Wrap up</h1>
 <p>Most interesting talk for me was <a href="https://software.af.mil/team/platformone/">Adam Toy&rsquo;s</a> as I can clearly see that he repeated it multiple times, so
