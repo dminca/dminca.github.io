@@ -67,7 +67,7 @@ remove the need for app-level authentication &amp; complex network level ACL con
 <p><img src="/001.png" alt="Debugging Istio within the Department of Defense"></p>
 <ul>
 <li>Nick Nellis &amp; Adam Toy gave this presentation, most interesting part was Adam&rsquo;s, here&rsquo;s why</li>
-<li>[DevSecOps managed services][9], team name&rsquo;s Platform One</li>
+<li><a href="https://software.af.mil/team/platformone/">DevSecOps managed services</a>, team name&rsquo;s Platform One</li>
 <li>plain and simple application flow diagram (top to bottom)</li>
 <li>did a clear demo showing off how he introduced faults</li>
 <li>really valuable that often he showed on the slides where we&rsquo;re at in the whole app flow</li>
