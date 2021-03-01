@@ -3,9 +3,8 @@ title: "IstioCon 21"
 date: 2021-02-25T09:17:47+01:00
 draft: false
 comments: true
-toc: false
-images: 
-- 004.jpg
+toc: true
+Cover: 004.jpg
 tags:
 - cncf
 - cloudnative
@@ -21,55 +20,56 @@ been discussed you can still do it, it's nice that you can login with  Apple 
 
 # Talks I found interesting
 
-![I want to sketch a mesh for you](002.png)
-* [I want to sketch a mesh for you][2] by Christian Posta
-    * :sparkles: installing the Istio control plane with the revision flag `istioctl install ... --revision 1-0-3`
-      * version istio control planes & components to separate them from each other, as an operator of a system,
-        the service mesh is a critical component of that system
-      * canary upgrades through both Control Planes where workloads are managed by each of them
-    * was doing the [istio-workshop][3]
-    * using HashiCorp Vault as your CA
-* [Improving Security with Istio][4]
-  * Alex Soto was screaming a lot, was funny
-* [Taming Istio configuration with Helm][5]
-  * Ryan Michela showed off here other sides of Helm:
-    * sometimes you find broken or incomplete charts
-    * CRDs problem is not solved on both Helm or Kubernetes sides and sometimes results in
-      intermitent installation failures caused by race conditions in K8s
-    * writing charts is tedious
-    * **You don't need most of Helm to get the most from Helm**
-  * :sparkles: Helm Starters -- ok, this is something that I just found out :thinking:
-    * it's a Helm chart that makes helm charts :open_mouth:
-    * `helm create my-service --starter some/thing`
-  * used [bookinfo](bookinfo) in the demos
+## [I want to sketch a mesh for you][2] - by Christian Posta
+![I want to sketch a mesh for you](/002.png)
+* :sparkles: installing the Istio control plane with the revision flag `istioctl install ... --revision 1-0-3`
+  * version istio control planes & components to separate them from each other, as an operator of a system,
+    the service mesh is a critical component of that system
+  * canary upgrades through both Control Planes where workloads are managed by each of them
+* was doing the [istio-workshop][3]
+* using HashiCorp Vault as your CA
+* cool  AirPods Max, really good sound quality :thumbsup:
+## [Improving Security with Istio][4]
+* Alex Soto was screaming a lot, was funny
 
-![Deep dive into Istio Auth Policies](003.png)
-* [Deep dive into Istio Auth Policies][6]
-  * :sparkles: Lawrence Gadban just showed me that Istio has OPA (Open Policy Agent) built-in;
-    not the real OPA, but it mimics that functionality with the Auth Policies
-  * Istio mTLS == Envoy at its core
-  * [SPIFFE](spiffe) -- doesn't matter what the accronyms mean, keep in mind that it's there to
-    remove the need for app-level authentication & complex network level ACL config
+## [Taming Istio configuration with Helm][5]
+* Ryan Michela showed off here other sides of Helm:
+  * sometimes you find broken or incomplete charts
+  * CRDs problem is not solved on both Helm or Kubernetes sides and sometimes results in
+    intermitent installation failures caused by race conditions in K8s
+  * writing charts is tedious
+  * **You don't need most of Helm to get the most from Helm**
+* :sparkles: Helm Starters -- ok, this is something that I just found out :thinking:
+  * it's a Helm chart that makes helm charts :open_mouth:
+  * `helm create my-service --starter some/thing`
+* used [bookinfo](bookinfo) in the demos
+
+## [Deep dive into Istio Auth Policies][6]
+![Deep dive into Istio Auth Policies](/003.png)
+* :sparkles: Lawrence Gadban just showed me that Istio has OPA (Open Policy Agent) built-in;
+  not the real OPA, but it mimics that functionality with the Auth Policies
+* Istio mTLS == Envoy at its core
+* [SPIFFE](spiffe) -- doesn't matter what the accronyms mean, keep in mind that it's there to
+  remove the need for app-level authentication & complex network level ACL config
 * [Istio Debugging: Finding and fixing issues in a multi-cluster service graph][7]
-  * Eitan & Scott emphasized the fact that Service Mesh provides telemetry data OOTB
-  * your Single Pane of Glass (SPOG) collects telemetry data accross multiple envs
-  * what caught my eye was their (solo.io) definition for Single Pane of Glass:
-    * a layer which aggregates all of your telemetry data in a single place
-    * adds context for cross-cluster and hybrid-env data
-    * creates actionable, useful metrics to help prevent and or solve outages
-  * show that SPOG & manually inject faults
-    * helps understand & grok what's going on in the system
+* Eitan & Scott emphasized the fact that Service Mesh provides telemetry data OOTB
+* your Single Pane of Glass (SPOG) collects telemetry data accross multiple envs
+* what caught my eye was their (solo.io) definition for Single Pane of Glass:
+  * a layer which aggregates all of your telemetry data in a single place
+  * adds context for cross-cluster and hybrid-env data
+  * creates actionable, useful metrics to help prevent and or solve outages
+* show that SPOG & manually inject faults
+  * helps understand & grok what's going on in the system
 
-![Debugging Istio within the Department of Defense](001.png)
-* [Debugging Istio within the Department of Defense][8]
-  * Nick Nellis & Adam Toy gave this presentation, most interesting part was Adam's, here's why
-  * [DevSecOps managed services][9], team name's Platform One
-  * plain and simple application flow diagram (top to bottom)
-  * did a clear demo showing off how he introduced faults
-  * really valuable that often he showed on the slides where we're at in the whole app flow
-  * check the Response Headers of the 404 request in the WebInspector browser
-  * :sparkles: covers 90% of the issues [troubleshooting Istio](analyze) -> `istioctl analyze`
-
+## [Debugging Istio within the Department of Defense][8]
+![Debugging Istio within the Department of Defense](/001.png)
+* Nick Nellis & Adam Toy gave this presentation, most interesting part was Adam's, here's why
+* [DevSecOps managed services][9], team name's Platform One
+* plain and simple application flow diagram (top to bottom)
+* did a clear demo showing off how he introduced faults
+* really valuable that often he showed on the slides where we're at in the whole app flow
+* check the Response Headers of the 404 request in the WebInspector browser
+* :sparkles: covers 90% of the issues [troubleshooting Istio](analyze) -> `istioctl analyze`
 
 # Wrap up
 
