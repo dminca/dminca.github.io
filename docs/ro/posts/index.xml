@@ -1,24 +1,6 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-    <channel>
-        <title>Posts on Daniel-Andrei Mincă</title>
-        <link>https://dminca.github.io/ro/posts/</link>
-        <description>Recent content in Posts on Daniel-Andrei Mincă</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>en-us</language>
-        <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-        <lastBuildDate>Wed, 24 Feb 2021 22:26:52 +0100</lastBuildDate>
-        <atom:link href="https://dminca.github.io/ro/posts/index.xml" rel="self" type="application/rss+xml" />
-        
-        <item>
-            <title>Hello World</title>
-            <link>https://dminca.github.io/ro/2021/02/hello-world/</link>
-            <pubDate>Wed, 24 Feb 2021 22:26:52 +0100</pubDate>
-            
-            <guid>https://dminca.github.io/ro/2021/02/hello-world/</guid>
-            <description>Probă de platformă 1,2,3 &amp;hellip; să vedem ce poate să facă și-asta
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Daniel-Andrei Mincă</title><link>https://dminca.github.io/ro/posts/</link><description>Recent content in Posts on Daniel-Andrei Mincă</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>&lt;a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0&lt;/a></copyright><lastBuildDate>Wed, 24 Feb 2021 22:26:52 +0100</lastBuildDate><atom:link href="https://dminca.github.io/ro/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Hello World</title><link>https://dminca.github.io/ro/2021/02/hello-world/</link><pubDate>Wed, 24 Feb 2021 22:26:52 +0100</pubDate><guid>https://dminca.github.io/ro/2021/02/hello-world/</guid><description>Probă de platformă 1,2,3 &amp;hellip; să vedem ce poate să facă și-asta
 Iată un simplu manifest YAML 😄
-{{- if (and (ne (.Values.ui.ingress.enabled | toString ) &amp;#34;-&amp;#34;) .Values.ui.ingress.enabled) }} {{- $serviceName := printf &amp;#34;%s-%s&amp;#34; (include &amp;#34;vault.fullname&amp;#34; .) &amp;#34;ui&amp;#34; -}} apiVersion: extensions/v1beta1 kind: Ingress metadata: name: {{ template &amp;#34;vault.fullname&amp;#34; . }}-ingress namespace: {{ .Release.Namespace }} labels: app: {{ template &amp;#34;vault.name&amp;#34; . }} chart: {{ template &amp;#34;vault.chart&amp;#34; . }} heritage: {{ .Release.Service }} release: {{ .</description>
-            <content type="html"><![CDATA[<p>Probă de platformă 1,2,3 &hellip; să vedem ce poate să facă și-asta</p>
+{{- if (and (ne (.Values.ui.ingress.enabled | toString ) &amp;#34;-&amp;#34;) .Values.ui.ingress.enabled) }} {{- $serviceName := printf &amp;#34;%s-%s&amp;#34; (include &amp;#34;vault.fullname&amp;#34; .) &amp;#34;ui&amp;#34; -}} apiVersion: extensions/v1beta1 kind: Ingress metadata: name: {{ template &amp;#34;vault.fullname&amp;#34; . }}-ingress namespace: {{ .Release.Namespace }} labels: app: {{ template &amp;#34;vault.name&amp;#34; . }} chart: {{ template &amp;#34;vault.chart&amp;#34; . }} heritage: {{ .Release.Service }} release: {{ .</description><content type="html"><![CDATA[<p>Probă de platformă 1,2,3 &hellip; să vedem ce poate să facă și-asta</p>
 <p>Iată un simplu manifest YAML 😄</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml">{{- <span style="color:#ae81ff">if (and (ne (.Values.ui.ingress.enabled | toString ) &#34;-&#34;) .Values.ui.ingress.enabled) }}</span>
 {{- <span style="color:#ae81ff">$serviceName := printf &#34;%s-%s&#34; (include &#34;vault.fullname&#34; .) &#34;ui&#34; -}}</span>
@@ -103,8 +85,4 @@ Iată un simplu manifest YAML 😄
 		RunForrestRun()  <span style="color:#75715e"># run along!</span></code></pre></td></tr></table>
 </div>
 </div>
-]]></content>
-        </item>
-        
-    </channel>
-</rss>
+]]></content></item></channel></rss>

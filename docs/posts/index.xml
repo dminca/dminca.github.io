@@ -1,23 +1,5 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-    <channel>
-        <title>Posts on Daniel-Andrei Minca</title>
-        <link>https://dminca.github.io/posts/</link>
-        <description>Recent content in Posts on Daniel-Andrei Minca</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>en-us</language>
-        <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-        <lastBuildDate>Thu, 25 Feb 2021 09:17:47 +0100</lastBuildDate>
-        <atom:link href="https://dminca.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
-        
-        <item>
-            <title>IstioCon 21</title>
-            <link>https://dminca.github.io/2021/02/istiocon-21/</link>
-            <pubDate>Thu, 25 Feb 2021 09:17:47 +0100</pubDate>
-            
-            <guid>https://dminca.github.io/2021/02/istiocon-21/</guid>
-            <description>ICYMI, IstioCon &amp;lsquo;21 was happening previous week 22-26 Feb 2021. Luckily the videos are still there, so if you want to check what&amp;rsquo;s been discussed you can still do it, it&amp;rsquo;s nice that you can login with  Apple ID also 😉
-Talks I found interesting I want to sketch a mesh for you - by Christian Posta  ✨ installing the Istio control plane with the revision flag istioctl install .</description>
-            <content type="html"><![CDATA[<p>ICYMI, <a href="https://events.istio.io/istiocon-2021">IstioCon &lsquo;21</a> was happening previous week 22-26 Feb 2021. Luckily the videos are still there, so if you want to check what&rsquo;s
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Daniel-Andrei Minca</title><link>https://dminca.github.io/posts/</link><description>Recent content in Posts on Daniel-Andrei Minca</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>&lt;a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0&lt;/a></copyright><lastBuildDate>Thu, 25 Feb 2021 09:17:47 +0100</lastBuildDate><atom:link href="https://dminca.github.io/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>IstioCon 21</title><link>https://dminca.github.io/2021/02/istiocon-21/</link><pubDate>Thu, 25 Feb 2021 09:17:47 +0100</pubDate><guid>https://dminca.github.io/2021/02/istiocon-21/</guid><description>ICYMI, IstioCon &amp;lsquo;21 was happening previous week 22-26 Feb 2021. Luckily the videos are still there, so if you want to check what&amp;rsquo;s been discussed you can still do it, it&amp;rsquo;s nice that you can login with  Apple ID also 😉
+Talks I found interesting I want to sketch a mesh for you - by Christian Posta ✨ installing the Istio control plane with the revision flag istioctl install .</description><content type="html"><![CDATA[<p>ICYMI, <a href="https://events.istio.io/istiocon-2021">IstioCon &lsquo;21</a> was happening previous week 22-26 Feb 2021. Luckily the videos are still there, so if you want to check what&rsquo;s
 been discussed you can still do it, it&rsquo;s nice that you can login with  Apple ID also 😉</p>
 <h1 id="talks-i-found-interesting">Talks I found interesting</h1>
 <h2 id="i-want-to-sketch-a-mesh-for-you2---by-christian-posta"><a href="https://www.crowdcast.io/e/istiocon-2021/3">I want to sketch a mesh for you</a> - by Christian Posta</h2>
@@ -100,19 +82,9 @@ presentations (they were really bad prepared), so I decided to just watch the re
 <p>Overall, this IstioCon &lsquo;21 was a win, as I managed to learn quite some new stuff about Istio overall, well, tbh, most
 important part for me was the troubleshooting and solving real life problems.</p>
 <p>PS: everything marked with ✨ are stuff that I won after this Con, thanks guys for the great conference!</p>
-]]></content>
-        </item>
-        
-        <item>
-            <title>Hello World</title>
-            <link>https://dminca.github.io/2021/02/hello-world/</link>
-            <pubDate>Wed, 24 Feb 2021 22:26:52 +0100</pubDate>
-            
-            <guid>https://dminca.github.io/2021/02/hello-world/</guid>
-            <description>It&amp;rsquo;s very interesting sometimes to test Golang blogging platforms
+]]></content></item><item><title>Hello World</title><link>https://dminca.github.io/2021/02/hello-world/</link><pubDate>Wed, 24 Feb 2021 22:26:52 +0100</pubDate><guid>https://dminca.github.io/2021/02/hello-world/</guid><description>It&amp;rsquo;s very interesting sometimes to test Golang blogging platforms
 This is a sample YAML manifest 😄
-{{- if (and (ne (.Values.ui.ingress.enabled | toString ) &amp;#34;-&amp;#34;) .Values.ui.ingress.enabled) }} {{- $serviceName := printf &amp;#34;%s-%s&amp;#34; (include &amp;#34;vault.fullname&amp;#34; .) &amp;#34;ui&amp;#34; -}} apiVersion: extensions/v1beta1 kind: Ingress metadata: name: {{ template &amp;#34;vault.fullname&amp;#34; . }}-ingress namespace: {{ .Release.Namespace }} labels: app: {{ template &amp;#34;vault.name&amp;#34; . }} chart: {{ template &amp;#34;vault.chart&amp;#34; . }} heritage: {{ .Release.Service }} release: {{ .</description>
-            <content type="html"><![CDATA[<p>It&rsquo;s very interesting sometimes to test Golang blogging platforms</p>
+{{- if (and (ne (.Values.ui.ingress.enabled | toString ) &amp;#34;-&amp;#34;) .Values.ui.ingress.enabled) }} {{- $serviceName := printf &amp;#34;%s-%s&amp;#34; (include &amp;#34;vault.fullname&amp;#34; .) &amp;#34;ui&amp;#34; -}} apiVersion: extensions/v1beta1 kind: Ingress metadata: name: {{ template &amp;#34;vault.fullname&amp;#34; . }}-ingress namespace: {{ .Release.Namespace }} labels: app: {{ template &amp;#34;vault.name&amp;#34; . }} chart: {{ template &amp;#34;vault.chart&amp;#34; . }} heritage: {{ .Release.Service }} release: {{ .</description><content type="html"><![CDATA[<p>It&rsquo;s very interesting sometimes to test Golang blogging platforms</p>
 <p>This is a sample YAML manifest 😄</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml">{{- <span style="color:#ae81ff">if (and (ne (.Values.ui.ingress.enabled | toString ) &#34;-&#34;) .Values.ui.ingress.enabled) }}</span>
 {{- <span style="color:#ae81ff">$serviceName := printf &#34;%s-%s&#34; (include &#34;vault.fullname&#34; .) &#34;ui&#34; -}}</span>
@@ -197,8 +169,4 @@ This is a sample YAML manifest 😄
 		RunForrestRun()  <span style="color:#75715e"># run along!</span></code></pre></td></tr></table>
 </div>
 </div>
-]]></content>
-        </item>
-        
-    </channel>
-</rss>
+]]></content></item></channel></rss>
