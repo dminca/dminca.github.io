@@ -47,7 +47,9 @@ not the real OPA, but it mimics that functionality with the Auth Policies</li>
 <li>Istio mTLS == Envoy at its core</li>
 <li><a href="spiffe">SPIFFE</a> &ndash; doesn&rsquo;t matter what the accronyms mean, keep in mind that it&rsquo;s there to
 remove the need for app-level authentication &amp; complex network level ACL config</li>
-<li><a href="https://www.crowdcast.io/e/istiocon-2021/35">Istio Debugging: Finding and fixing issues in a multi-cluster service graph</a></li>
+</ul>
+<h2 id="istio-debugging-finding-and-fixing-issues-in-a-multi-cluster-service-graph7"><a href="https://www.crowdcast.io/e/istiocon-2021/35">Istio Debugging: Finding and fixing issues in a multi-cluster service graph</a></h2>
+<ul>
 <li>Eitan &amp; Scott emphasized the fact that Service Mesh provides telemetry data OOTB</li>
 <li>your Single Pane of Glass (SPOG) collects telemetry data accross multiple envs</li>
 <li>what caught my eye was their (solo.io) definition for Single Pane of Glass:
