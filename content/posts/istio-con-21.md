@@ -51,7 +51,7 @@ been discussed you can still do it, it's nice that you can login with  Apple 
 * Istio mTLS == Envoy at its core
 * [SPIFFE](spiffe) -- doesn't matter what the accronyms mean, keep in mind that it's there to
   remove the need for app-level authentication & complex network level ACL config
-* [Istio Debugging: Finding and fixing issues in a multi-cluster service graph][7]
+## [Istio Debugging: Finding and fixing issues in a multi-cluster service graph][7]
 * Eitan & Scott emphasized the fact that Service Mesh provides telemetry data OOTB
 * your Single Pane of Glass (SPOG) collects telemetry data accross multiple envs
 * what caught my eye was their (solo.io) definition for Single Pane of Glass:
