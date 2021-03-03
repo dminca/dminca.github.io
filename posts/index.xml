@@ -1,4 +1,83 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Daniel-Andrei Minca</title><link>https://dminca.github.io/posts/</link><description>Recent content in Posts on Daniel-Andrei Minca</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>&lt;a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0&lt;/a></copyright><lastBuildDate>Thu, 25 Feb 2021 09:17:47 +0100</lastBuildDate><atom:link href="https://dminca.github.io/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>IstioCon 21</title><link>https://dminca.github.io/2021/02/istiocon-21/</link><pubDate>Thu, 25 Feb 2021 09:17:47 +0100</pubDate><guid>https://dminca.github.io/2021/02/istiocon-21/</guid><description>ICYMI, IstioCon &amp;lsquo;21 was happening previous week 22-26 Feb 2021. Luckily the videos are still there, so if you want to check what&amp;rsquo;s been discussed you can still do it, it&amp;rsquo;s nice that you can login with  Apple ID also 😉
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Daniel-Andrei Minca</title><link>https://dminca.github.io/posts/</link><description>Recent content in Posts on Daniel-Andrei Minca</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>&lt;a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0&lt;/a></copyright><lastBuildDate>Thu, 25 Feb 2021 21:41:24 +0100</lastBuildDate><atom:link href="https://dminca.github.io/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Security Tools</title><link>https://dminca.github.io/2021/02/security-tools/</link><pubDate>Thu, 25 Feb 2021 21:41:24 +0100</pubDate><guid>https://dminca.github.io/2021/02/security-tools/</guid><description>I never had the chance to compact a list of available Security tools in Q1 2021, here it goes. If something&amp;rsquo;s missing from this list, anyone can freely open a PR and I&amp;rsquo;ll gladly update the list.
+Security tooling available By attending the ZapCon &amp;lsquo;21, I&amp;rsquo;ve received a feedback request email from them where I should list security tools I&amp;rsquo;ve used in the past.
+Name Pricing model checkmarx.</description><content type="html"><![CDATA[<p>I never had the chance to compact a list of available Security tools in Q1 2021, here it goes.
+If something&rsquo;s missing from this list, anyone can freely open a PR and I&rsquo;ll gladly update the list.</p>
+<h1 id="security-tooling-available">Security tooling available</h1>
+<p>By attending the ZapCon &lsquo;21, I&rsquo;ve received a feedback request email from them where
+I should list security tools I&rsquo;ve used in the past.</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Pricing model</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="checkmarx">checkmarx.com</a></td>
+<td>Premium</td>
+</tr>
+<tr>
+<td><a href="synopsys">synopsys.com</a></td>
+<td>Premium</td>
+</tr>
+<tr>
+<td><a href="burp">portswigger.net/burp</a></td>
+<td>Premium/Community Edition</td>
+</tr>
+<tr>
+<td><a href="dtfy">detectify.com</a></td>
+<td>Premium</td>
+</tr>
+<tr>
+<td><a href="acunetx">acunetix.com</a></td>
+<td>Premium</td>
+</tr>
+<tr>
+<td><a href="veracode">veracode.com</a></td>
+<td>Premium</td>
+</tr>
+<tr>
+<td><a href="dpnb">dependabot.com</a></td>
+<td>Open-Source</td>
+</tr>
+<tr>
+<td><a href="synk">synk.io</a></td>
+<td>Free/Standard/Pro/Enterprise</td>
+</tr>
+<tr>
+<td><a href="swk">stackhawk.com</a></td>
+<td>Free/Pro/Enterprise</td>
+</tr>
+<tr>
+<td><a href="appscan">hcltechsw.com/wps/portal/products/appscan</a></td>
+<td>Premium</td>
+</tr>
+<tr>
+<td><a href="dptk">dependencytrack.org</a></td>
+<td>Open-Source</td>
+</tr>
+</tbody>
+</table>
+<h2 id="opinions">Opinions</h2>
+<p>Of all these tools I&rsquo;ve heard good remarks on <a href="dpnb">dependabot</a> mainly because it&rsquo;s Open-Source
+since GitHub acquired it, plus it&rsquo;s fairly simple to integrate it into your CI/CD pipelines.</p>
+<p><a href="dptk">dependencytrack</a> I&rsquo;ve saw it demo&rsquo;d in a real use-case and what can you do with this tool
+is absolutely amazing, you can configure the server to push dependency deprecations in your PRs (Pull Requests),
+you have a pretty neat unified dashboard with any security vulns for your apps, definintely recommend it; plus, it&rsquo;s
+easy to set-up as they offer a Docker image and it&rsquo;s licensed under Apache 2.0.</p>
+<p><a href="veracode">veracode</a> is amazing for scanning your OnPrem and this is just one use-case, there are plenty more out there,
+main point is that you should know how/what to configure properly so that you get a good experience from it (like all
+tools nonetheless)</p>
+<h2 id="what-you-get">What you get</h2>
+<p>Depending on your needs, don&rsquo;t go for something Premium just because you&rsquo;re buying <em>the support</em>, trust me, that in
+2021 is so overrated and Support is not how it used to be before, now when you open a ticket, if you&rsquo;re lucky ☝️, you get
+someone experienced handling your case, otherwise you&rsquo;ll get someone who constantly asks you for logs et. al. and then
+just keeps escalating your issue to heavenly gates and you lose time &amp; neurons&hellip;</p>
+<p>Choosing something that&rsquo;s Open-Source has way more benefits because for most of the issues you could find a GitHub issue
+raised by someone else, or find something on StackOverflow, ddg.co or whatnot&hellip; it&rsquo;s also good to share your experiences to the
+community 😉</p>
+]]></content></item><item><title>IstioCon 21</title><link>https://dminca.github.io/2021/02/istiocon-21/</link><pubDate>Thu, 25 Feb 2021 09:17:47 +0100</pubDate><guid>https://dminca.github.io/2021/02/istiocon-21/</guid><description>ICYMI, IstioCon &amp;lsquo;21 was happening previous week 22-26 Feb 2021. Luckily the videos are still there, so if you want to check what&amp;rsquo;s been discussed you can still do it, it&amp;rsquo;s nice that you can login with  Apple ID also 😉
 Talks I found interesting I want to sketch a mesh for you - by Christian Posta ✨ installing the Istio control plane with the revision flag istioctl install .</description><content type="html"><![CDATA[<p>ICYMI, <a href="https://events.istio.io/istiocon-2021">IstioCon &lsquo;21</a> was happening previous week 22-26 Feb 2021. Luckily the videos are still there, so if you want to check what&rsquo;s
 been discussed you can still do it, it&rsquo;s nice that you can login with  Apple ID also 😉</p>
 <h1 id="talks-i-found-interesting">Talks I found interesting</h1>
