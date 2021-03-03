@@ -62,7 +62,7 @@ I should list security tools I&rsquo;ve used in the past.</p>
 <h2 id="opinions">Opinions</h2>
 <p>Of all these tools I&rsquo;ve heard good remarks on <a href="https://dependabot.com">dependabot</a> mainly because it&rsquo;s Open-Source
 since GitHub acquired it, plus it&rsquo;s fairly simple to integrate it into your CI/CD pipelines.</p>
-<p><a href="https://dependencytrack.org">dependencytrack</a> I&rsquo;ve saw it demo&rsquo;d in a real use-case and what can you do with this tool
+<p><a href="https://dependencytrack.org">dependencytrack</a> I saw it demoed in a real use-case scenario and what can you do with this tool
 is absolutely amazing, you can configure the server to push dependency deprecations in your PRs (Pull Requests),
 you have a pretty neat unified dashboard with any security vulns for your apps, definintely recommend it; plus, it&rsquo;s
 easy to set-up as they offer a Docker image and it&rsquo;s licensed under Apache 2.0.</p>
