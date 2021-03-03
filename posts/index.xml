@@ -14,59 +14,59 @@ I should list security tools I&rsquo;ve used in the past.</p>
 </thead>
 <tbody>
 <tr>
-<td><a href="checkmarx">checkmarx.com</a></td>
+<td><a href="https://www.checkmarx.com">checkmarx.com</a></td>
 <td>Premium</td>
 </tr>
 <tr>
-<td><a href="synopsys">synopsys.com</a></td>
+<td><a href="https://www.synopsys.com">synopsys.com</a></td>
 <td>Premium</td>
 </tr>
 <tr>
-<td><a href="burp">portswigger.net/burp</a></td>
+<td><a href="https://portswigger.net/burp">portswigger.net/burp</a></td>
 <td>Premium/Community Edition</td>
 </tr>
 <tr>
-<td><a href="dtfy">detectify.com</a></td>
+<td><a href="https://detectify.com">detectify.com</a></td>
 <td>Premium</td>
 </tr>
 <tr>
-<td><a href="acunetx">acunetix.com</a></td>
+<td><a href="https://www.acunetix.com">acunetix.com</a></td>
 <td>Premium</td>
 </tr>
 <tr>
-<td><a href="veracode">veracode.com</a></td>
+<td><a href="https://www.veracode.com">veracode.com</a></td>
 <td>Premium</td>
 </tr>
 <tr>
-<td><a href="dpnb">dependabot.com</a></td>
+<td><a href="https://dependabot.com">dependabot.com</a></td>
 <td>Open-Source</td>
 </tr>
 <tr>
-<td><a href="synk">synk.io</a></td>
+<td><a href="https://snyk.io">synk.io</a></td>
 <td>Free/Standard/Pro/Enterprise</td>
 </tr>
 <tr>
-<td><a href="swk">stackhawk.com</a></td>
+<td><a href="https://www.stackhawk.com">stackhawk.com</a></td>
 <td>Free/Pro/Enterprise</td>
 </tr>
 <tr>
-<td><a href="appscan">hcltechsw.com/wps/portal/products/appscan</a></td>
+<td><a href="https://www.hcltechsw.com/wps/portal/products/appscan">hcltechsw.com/wps/portal/products/appscan</a></td>
 <td>Premium</td>
 </tr>
 <tr>
-<td><a href="dptk">dependencytrack.org</a></td>
+<td><a href="https://dependencytrack.org">dependencytrack.org</a></td>
 <td>Open-Source</td>
 </tr>
 </tbody>
 </table>
 <h2 id="opinions">Opinions</h2>
-<p>Of all these tools I&rsquo;ve heard good remarks on <a href="dpnb">dependabot</a> mainly because it&rsquo;s Open-Source
+<p>Of all these tools I&rsquo;ve heard good remarks on <a href="https://dependabot.com">dependabot</a> mainly because it&rsquo;s Open-Source
 since GitHub acquired it, plus it&rsquo;s fairly simple to integrate it into your CI/CD pipelines.</p>
-<p><a href="dptk">dependencytrack</a> I&rsquo;ve saw it demo&rsquo;d in a real use-case and what can you do with this tool
+<p><a href="https://dependencytrack.org">dependencytrack</a> I&rsquo;ve saw it demo&rsquo;d in a real use-case and what can you do with this tool
 is absolutely amazing, you can configure the server to push dependency deprecations in your PRs (Pull Requests),
 you have a pretty neat unified dashboard with any security vulns for your apps, definintely recommend it; plus, it&rsquo;s
 easy to set-up as they offer a Docker image and it&rsquo;s licensed under Apache 2.0.</p>
-<p><a href="veracode">veracode</a> is amazing for scanning your OnPrem and this is just one use-case, there are plenty more out there,
+<p><a href="https://www.veracode.com">veracode</a> is amazing for scanning your OnPrem and this is just one use-case, there are plenty more out there,
 main point is that you should know how/what to configure properly so that you get a good experience from it (like all
 tools nonetheless)</p>
 <h2 id="what-you-get">What you get</h2>
@@ -116,7 +116,7 @@ intermitent installation failures caused by race conditions in K8s</li>
 <li><code>helm create my-service --starter some/thing</code></li>
 </ul>
 </li>
-<li>used <a href="bookinfo">bookinfo</a> in the demos</li>
+<li>used <a href="https://istio.io/latest/docs/examples/bookinfo/">bookinfo</a> in the demos</li>
 </ul>
 <h2 id="deep-dive-into-istio-auth-policies6"><a href="https://www.crowdcast.io/e/istiocon-2021/24">Deep dive into Istio Auth Policies</a></h2>
 <p><img src="/003.png" alt="Deep dive into Istio Auth Policies"></p>
@@ -124,7 +124,7 @@ intermitent installation failures caused by race conditions in K8s</li>
 <li>✨ Lawrence Gadban just showed me that Istio has OPA (Open Policy Agent) built-in;
 not the real OPA, but it mimics that functionality with the Auth Policies</li>
 <li>Istio mTLS == Envoy at its core</li>
-<li><a href="spiffe">SPIFFE</a> &ndash; doesn&rsquo;t matter what the accronyms mean, keep in mind that it&rsquo;s there to
+<li><a href="https://spiffe.io">SPIFFE</a> &ndash; doesn&rsquo;t matter what the accronyms mean, keep in mind that it&rsquo;s there to
 remove the need for app-level authentication &amp; complex network level ACL config</li>
 </ul>
 <h2 id="istio-debugging-finding-and-fixing-issues-in-a-multi-cluster-service-graph7"><a href="https://www.crowdcast.io/e/istiocon-2021/35">Istio Debugging: Finding and fixing issues in a multi-cluster service graph</a></h2>
@@ -153,7 +153,7 @@ remove the need for app-level authentication &amp; complex network level ACL con
 <li>did a clear demo showing off how he introduced faults</li>
 <li>really valuable that often he showed on the slides where we&rsquo;re at in the whole app flow</li>
 <li>check the Response Headers of the 404 request in the WebInspector browser</li>
-<li>✨ covers 90% of the issues <a href="analyze">troubleshooting Istio</a> -&gt; <code>istioctl analyze</code></li>
+<li>✨ covers 90% of the issues <a href="https://istio.io/latest/docs/ops/diagnostic-tools/istioctl-analyze/">troubleshooting Istio</a> -&gt; <code>istioctl analyze</code></li>
 </ul>
 <h1 id="wrap-up">Wrap up</h1>
 <p>Most interesting talk for me was <a href="https://software.af.mil/team/platformone/">Adam Toy&rsquo;s</a> as I can clearly see that he repeated it multiple times, so
