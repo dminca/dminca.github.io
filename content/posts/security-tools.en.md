@@ -21,29 +21,29 @@ I should list security tools I've used in the past.
 
 | Name | Pricing model |
 | ---- | ------------- |
-| [checkmarx.com](checkmarx) | Premium |
-| [synopsys.com](synopsys) | Premium |
-| [portswigger.net/burp](burp) | Premium/Community Edition |
-| [detectify.com](dtfy) | Premium |
-| [acunetix.com](acunetx) | Premium |
-| [veracode.com](veracode) | Premium |
-| [dependabot.com](dpnb) | Open-Source |
-| [synk.io](synk) | Free/Standard/Pro/Enterprise |
-| [stackhawk.com](swk) | Free/Pro/Enterprise |
-| [hcltechsw.com/wps/portal/products/appscan](appscan) | Premium |
-| [dependencytrack.org](dptk) | Open-Source |
+| [checkmarx.com][checkmarx] | Premium |
+| [synopsys.com][synopsys] | Premium |
+| [portswigger.net/burp][burp] | Premium/Community Edition |
+| [detectify.com][dtfy] | Premium |
+| [acunetix.com][acunetx] | Premium |
+| [veracode.com][veracode] | Premium |
+| [dependabot.com][dpnb] | Open-Source |
+| [synk.io][synk] | Free/Standard/Pro/Enterprise |
+| [stackhawk.com][swk] | Free/Pro/Enterprise |
+| [hcltechsw.com/wps/portal/products/appscan][appscan] | Premium |
+| [dependencytrack.org][dptk] | Open-Source |
 
 ## Opinions
 
-Of all these tools I've heard good remarks on [dependabot](dpnb) mainly because it's Open-Source
+Of all these tools I've heard good remarks on [dependabot][dpnb] mainly because it's Open-Source
 since GitHub acquired it, plus it's fairly simple to integrate it into your CI/CD pipelines.
 
-[dependencytrack](dptk) I've saw it demo'd in a real use-case and what can you do with this tool
+[dependencytrack][dptk] I've saw it demo'd in a real use-case and what can you do with this tool
 is absolutely amazing, you can configure the server to push dependency deprecations in your PRs (Pull Requests),
 you have a pretty neat unified dashboard with any security vulns for your apps, definintely recommend it; plus, it's
 easy to set-up as they offer a Docker image and it's licensed under Apache 2.0.
 
-[veracode](veracode) is amazing for scanning your OnPrem and this is just one use-case, there are plenty more out there,
+[veracode][veracode] is amazing for scanning your OnPrem and this is just one use-case, there are plenty more out there,
 main point is that you should know how/what to configure properly so that you get a good experience from it (like all
 tools nonetheless)
 
