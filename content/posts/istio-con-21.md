@@ -42,14 +42,14 @@ been discussed you can still do it, it's nice that you can login with  Apple 
 * :sparkles: Helm Starters -- ok, this is something that I just found out :thinking:
   * it's a Helm chart that makes helm charts :open_mouth:
   * `helm create my-service --starter some/thing`
-* used [bookinfo](bookinfo) in the demos
+* used [bookinfo][bookinfo] in the demos
 
 ## [Deep dive into Istio Auth Policies][6]
 ![Deep dive into Istio Auth Policies](/003.png)
 * :sparkles: Lawrence Gadban just showed me that Istio has OPA (Open Policy Agent) built-in;
   not the real OPA, but it mimics that functionality with the Auth Policies
 * Istio mTLS == Envoy at its core
-* [SPIFFE](spiffe) -- doesn't matter what the accronyms mean, keep in mind that it's there to
+* [SPIFFE][spiffe] -- doesn't matter what the accronyms mean, keep in mind that it's there to
   remove the need for app-level authentication & complex network level ACL config
 ## [Istio Debugging: Finding and fixing issues in a multi-cluster service graph][7]
 * Eitan & Scott emphasized the fact that Service Mesh provides telemetry data OOTB
@@ -69,7 +69,7 @@ been discussed you can still do it, it's nice that you can login with  Apple 
 * did a clear demo showing off how he introduced faults
 * really valuable that often he showed on the slides where we're at in the whole app flow
 * check the Response Headers of the 404 request in the WebInspector browser
-* :sparkles: covers 90% of the issues [troubleshooting Istio](analyze) -> `istioctl analyze`
+* :sparkles: covers 90% of the issues [troubleshooting Istio][analyze] -> `istioctl analyze`
 
 # Wrap up
 
