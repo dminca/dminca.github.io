@@ -3,7 +3,7 @@ title: "ZapCon 21"
 date: 2021-02-25T21:52:27+01:00
 draft: false
 comments: true
-toc: false
+toc: true
 images:
 categories:
 - Conferences
