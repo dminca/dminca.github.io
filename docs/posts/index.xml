@@ -19,7 +19,7 @@ in quite a simple way, and you can run pentests on your UI application</li>
 <li>find bugs before they are deployed to prod</li>
 <li>mimick how attackers view your system</li>
 <li>test how the whole system works not just components</li>
-<li>give you low <strong>signal to noise</strong> ratio</li>
+<li>give you low <strong>signal to noise ratio</strong></li>
 <li>reveal real risks not just theoretical ones</li>
 </ul>
 <h2 id="zap-automation-framework4"><a href="https://youtu.be/xlt---D9I3w?t=4256">ZAP automation framework</a></h2>
