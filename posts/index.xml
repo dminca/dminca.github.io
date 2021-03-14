@@ -1,4 +1,76 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Daniel-Andrei Minca</title><link>https://dminca.github.io/posts/</link><description>Recent content in Posts on Daniel-Andrei Minca</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>&lt;a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0&lt;/a></copyright><lastBuildDate>Thu, 25 Feb 2021 21:41:24 +0100</lastBuildDate><atom:link href="https://dminca.github.io/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Security Tools</title><link>https://dminca.github.io/2021/02/security-tools/</link><pubDate>Thu, 25 Feb 2021 21:41:24 +0100</pubDate><guid>https://dminca.github.io/2021/02/security-tools/</guid><description>I never had the chance to compact a list of available Security tools in Q1 2021, here it goes. If something&amp;rsquo;s missing from this list, anyone can freely open a PR and I&amp;rsquo;ll gladly update the list.
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Daniel-Andrei Minca</title><link>https://dminca.github.io/posts/</link><description>Recent content in Posts on Daniel-Andrei Minca</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>&lt;a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0&lt;/a></copyright><lastBuildDate>Thu, 25 Feb 2021 21:52:27 +0100</lastBuildDate><atom:link href="https://dminca.github.io/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>ZapCon 21</title><link>https://dminca.github.io/2021/02/zapcon-21/</link><pubDate>Thu, 25 Feb 2021 21:52:27 +0100</pubDate><guid>https://dminca.github.io/2021/02/zapcon-21/</guid><description>ZapCon &amp;lsquo;21 was scheduled on 9th March 2021
+What was interesting Robot Framework Democratizing ZAP with test automation and DSLs by Abhay Bhargav
+BDD (Behaviour Driven Development) in IT-Security apparently, there&amp;rsquo;s this robotframework which makes writing test cases in quite a simple way, and you can run pentests on your UI application Why using a DAST scanner? DAST (Dynamic Application Security Testing) keeps app secure:</description><content type="html"><![CDATA[<p><a href="https://zapcon.io">ZapCon &lsquo;21</a> was scheduled on 9th March 2021</p>
+<h1 id="what-was-interesting">What was interesting</h1>
+<h2 id="robot-framework3"><a href="https://youtu.be/xlt---D9I3w?t=2406">Robot Framework</a></h2>
+<p><a href="https://youtu.be/xlt---D9I3w?t=1190">Democratizing ZAP with test automation and DSLs</a> by Abhay Bhargav</p>
+<ul>
+<li>BDD (Behaviour Driven Development) in IT-Security
+<ul>
+<li>apparently, there&rsquo;s this <a href="https://robotframework.org">robotframework</a> which makes writing test cases
+in quite a simple way, and you can run pentests on your UI application</li>
+</ul>
+</li>
+</ul>
+<h2 id="why-using-a-dast-scanner2"><a href="https://youtu.be/xlt---D9I3w?t=890">Why using a DAST scanner?</a></h2>
+<p>DAST (Dynamic Application Security Testing) keeps app secure:</p>
+<ul>
+<li>test your running app</li>
+<li>find bugs before they are deployed to prod</li>
+<li>mimick how attackers view your system</li>
+<li>test how the whole system works not just components</li>
+<li>give you low <strong>signal to noise</strong> ratio</li>
+<li>reveal real risks not just theoretical ones</li>
+</ul>
+<h2 id="zap-automation-framework4"><a href="https://youtu.be/xlt---D9I3w?t=4256">ZAP automation framework</a></h2>
+<p>by Simon Bennetts &ndash; ZAP Project Lead</p>
+<ul>
+<li><a href="https://youtu.be/xlt---D9I3w?t=4561">DEMO available</a></li>
+<li>it will support core features like:
+<ul>
+<li>passive scanning
+<ul>
+<li>configuration</li>
+<li>waiting to complete</li>
+</ul>
+</li>
+<li>traditional spider</li>
+<li>active scanner</li>
+</ul>
+</li>
+<li>additional addons supported</li>
+</ul>
+<h2 id="mobile-app-security-with-owasp-zap6"><a href="https://youtu.be/xlt---D9I3w?t=7190">Mobile app security with OWASP ZAP</a></h2>
+<p>by Ankush Mohanty &amp; Milan Sen</p>
+<ul>
+<li><a href="https://youtu.be/xlt---D9I3w?t=7790">DEMO available</a></li>
+<li>in mobile AppSec, Traffic Analysis has major role in finding various server
+side vulns</li>
+<li>some common vulns uncovered by Traffic Analysis include (but not limited to)
+<ul>
+<li>secure communication validation (SSL/TLS or HTTP)</li>
+<li>server side open ports</li>
+<li>PII data or Server information leak</li>
+<li>Server side Brute force/lock out validation</li>
+<li>validation of resource utilization vulnerability</li>
+<li>Server side authorization vulns</li>
+</ul>
+</li>
+</ul>
+<h2 id="enhance-zap-with-feedback-based-fuzzing9"><a href="https://youtu.be/xlt---D9I3w?t=13245">Enhance ZAP with feedback-based fuzzing</a></h2>
+<p>by Khaled Yakdan</p>
+<ul>
+<li>Coverage-guided, in-process fuzzing for the JVM -&gt; <a href="https://github.com/CodeIntelligenceTesting/jazzer">github.com/CodeIntelligenceTesting/jazzer</a></li>
+<li><a href="https://youtu.be/xlt---D9I3w?t=13874">DEMO CVE-2021-23899</a></li>
+<li>feedback-based fuzzing is great for finding bugs that cannot be unvealed
+during blackbox testing</li>
+</ul>
+<h1 id="wrap-up">Wrap up</h1>
+<p>Overall, the conference was pretty cool and much knowledge was gained, most
+interesting part for me was the BDD with the Robot Framework, that&rsquo;s actually
+something interesting to implement in your Sec pipelines and you can actually
+run it in headless mode (no UI, no browser required).</p>
+]]></content></item><item><title>Security Tools</title><link>https://dminca.github.io/2021/02/security-tools/</link><pubDate>Thu, 25 Feb 2021 21:41:24 +0100</pubDate><guid>https://dminca.github.io/2021/02/security-tools/</guid><description>I never had the chance to compact a list of available Security tools in Q1 2021, here it goes. If something&amp;rsquo;s missing from this list, anyone can freely open a PR and I&amp;rsquo;ll gladly update the list.
 Security tooling available By attending the ZapCon &amp;lsquo;21, I&amp;rsquo;ve received a feedback request email from them where I should list security tools I&amp;rsquo;ve used in the past.
 Name Pricing model checkmarx.</description><content type="html"><![CDATA[<p>I never had the chance to compact a list of available Security tools in Q1 2021, here it goes.
 If something&rsquo;s missing from this list, anyone can freely open a PR and I&rsquo;ll gladly update the list.</p>
