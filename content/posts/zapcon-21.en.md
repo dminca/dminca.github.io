@@ -30,7 +30,7 @@ DAST (Dynamic Application Security Testing) keeps app secure:
 * find bugs before they are deployed to prod
 * mimick how attackers view your system
 * test how the whole system works not just components
-* give you low **signal to noise** ratio
+* give you low **signal to noise ratio**
 * reveal real risks not just theoretical ones
 
 ## [ZAP automation framework][4]
