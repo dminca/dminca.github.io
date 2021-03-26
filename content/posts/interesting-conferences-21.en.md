@@ -43,8 +43,11 @@ Engineer) role and they cover topics like:
 :moneybag: **Registration cost**: $10 (early bird) / $75 (standard)
 
 If you registered here you can join other conferences hosted by the CNCF, such
-as: Cloud Native Security Day Europe[^2], Fluentcon[^3], ServiceMeshCon[^4] and
-PromCon Online[^5]
+as:
+* Cloud Native Security Day Europe[^2]
+* Fluentcon[^3]
+* ServiceMeshCon[^4]
+* PromCon Online[^5]
 
 ### #WTFisSRE [^6]
 
