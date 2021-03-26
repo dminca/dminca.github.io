@@ -49,7 +49,7 @@ amount of information, just trying to avoid 32783 unread emails in my inbox.
 To make it simpler, I made a rule in GMail and tagging the newsletters so that
 I'm able to find them faster; could possibly be a candidate for automating
 this via a Telegram chat bot. You may find me post some interesting links in
-my Telegram channel @DevOps101[^2], this is my last post
+my Telegram channel @DevOps101[^2].
 
 # Reddit subs
 
