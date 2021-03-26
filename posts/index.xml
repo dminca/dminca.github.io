@@ -1,4 +1,108 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Daniel-Andrei Minca</title><link>https://dminca.github.io/posts/</link><description>Recent content in Posts on Daniel-Andrei Minca</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>&lt;a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0&lt;/a></copyright><lastBuildDate>Thu, 25 Mar 2021 21:25:14 +0100</lastBuildDate><atom:link href="https://dminca.github.io/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Interesting Tech Conferences '21</title><link>https://dminca.github.io/2021/03/interesting-tech-conferences-21/</link><pubDate>Thu, 25 Mar 2021 21:25:14 +0100</pubDate><guid>https://dminca.github.io/2021/03/interesting-tech-conferences-21/</guid><description>This is the 2nd year conferences are being virtual and we can only benefit from this. Some of time are free whilst some, more popular, require a small fee.
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Daniel-Andrei Minca</title><link>https://dminca.github.io/posts/</link><description>Recent content in Posts on Daniel-Andrei Minca</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>&lt;a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0&lt;/a></copyright><lastBuildDate>Fri, 26 Mar 2021 21:27:07 +0100</lastBuildDate><atom:link href="https://dminca.github.io/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Sources I use for keeping up with IT news</title><link>https://dminca.github.io/2021/03/sources-i-use-for-keeping-up-with-it-news/</link><pubDate>Fri, 26 Mar 2021 21:27:07 +0100</pubDate><guid>https://dminca.github.io/2021/03/sources-i-use-for-keeping-up-with-it-news/</guid><description>As you may already know, keeping up with the news in the IT sector is necessary not only to further develop/extend your skillset but also it&amp;rsquo;s interesting to see how others tackle some issues as there are multiple schools of thought.
+This domain is to me the most fascinating because no matter how many certifications or diplomas you have at hand and no matter how much you know, you need to be a good team player.</description><content type="html"><![CDATA[<p>As you may already know, keeping up with the news in the IT sector is necessary
+not only to further develop/extend your skillset but also it&rsquo;s interesting to
+see how others tackle some issues as there are multiple schools of thought.</p>
+<p>This domain is to me the most fascinating because no matter how many certifications
+or diplomas you have at hand and no matter how much you know, you need to be a
+good team player.</p>
+<p>Age does not matter in this domain, but knowledge and humbleness. If you have
+more knowledge on some ramifications (ie. Networking) and you can explain it
+really good to your fellow colleagues then you are best fit for this role. In
+the end we&rsquo;re all in here to learn from each other and to help each other
+because we all started from scratch.</p>
+<h1 id="newsletters">Newsletters</h1>
+<p>My no. 1 place to check the pulse are <strong>newsletters</strong>. Newsletters, although
+they are a waterfall of information, they&rsquo;re a gold mine, and kudos to the
+people that are curating &amp; maintaining them! Out of all the newsletters, I&rsquo;m
+interested mostly in Site Reliability Engineering (SRE) topics because these
+cover a broader view (logging, monitoring, CI/CD et. al.); I&rsquo;m subscribed to
+these newsletters:</p>
+<ul>
+<li>DevOps Weekly<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup> &ndash; you can check the topics in their archive</li>
+<li>KubeWeekly<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup> &ndash; although it&rsquo;s focused on Kubernetes, you can find SRE
+topics as well</li>
+<li>Golang Weekly<sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup> &ndash; not only Go, they often show some helpful K8s tooling,
+that&rsquo;s where I found out about k9s<sup id="fnref:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup></li>
+</ul>
+<p>I&rsquo;m only subscribed to these 2 as it&rsquo;s humanly impossible to keep up with the
+amount of information, just trying to avoid 32783 unread emails in my inbox.</p>
+<p>To make it simpler, I made a rule in GMail and tagging the newsletters so that
+I&rsquo;m able to find them faster; could possibly be a candidate for automating
+this via a Telegram chat bot. You may find me post some interesting links in
+my Telegram channel @DevOps101<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>, this is my last post</p>
+<h1 id="reddit-subs">Reddit subs</h1>
+<p>2nd place to check is Reddit. Here I just skim through some subs and share the
+link in my Telegram channel to read it later on. By having these articles on
+the channel I&rsquo;m able to search when I need them the most.</p>
+<p>I&rsquo;ve joined these subs:</p>
+<ul>
+<li>r/devops<sup id="fnref:5"><a href="#fn:5" class="footnote-ref" role="doc-noteref">5</a></sup></li>
+<li>r/kubernetes<sup id="fnref:6"><a href="#fn:6" class="footnote-ref" role="doc-noteref">6</a></sup></li>
+</ul>
+<h1 id="podcasts">Podcasts</h1>
+<p>Before going to bed or early in the morning you can just play a podcast and
+listen to what&rsquo;s going on in the ecosystem. I like the podcasts because it
+makes you inherit the terminology and how to pronounce some stuff (ie. kubectl
+&ndash; long discussion). The terminology is key as this unlocks some super powers
+like <em>knowing what to google</em> in the event you hit some bumps along the way; but
+also are helpful in presentations and simplifies explaining stuff.</p>
+<p>Recommend these podcasts:</p>
+<ul>
+<li>Kubernetes Podcast<sup id="fnref:7"><a href="#fn:7" class="footnote-ref" role="doc-noteref">7</a></sup></li>
+<li>The New Stack Makers<sup id="fnref:8"><a href="#fn:8" class="footnote-ref" role="doc-noteref">8</a></sup></li>
+<li>Software Engineering Radio (SE-Radio)<sup id="fnref:9"><a href="#fn:9" class="footnote-ref" role="doc-noteref">9</a></sup> &ndash; this one&rsquo;s cool because you can
+imrpove your skill to identify and resolve issues in Development; they also
+cover some Software Architecture that&rsquo;s really interesting, and of course, the
+terminology that you learn is definitely a plus</li>
+</ul>
+<h1 id="twitter">Twitter</h1>
+<p>I subscribed to few key people here and I just check them from time to time,
+I&rsquo;ve dropped everything in my <a href="https://twitter.com/i/lists/1084391747147493376">Cloud Technology list</a></p>
+<h1 id="colleagues-from-your-field">Colleagues from your field</h1>
+<p>Last but not least and most importantly, information that your colleagues or
+fellows share with you. This one&rsquo;s cool because you can exchange some feedback
+with them, find out some opinions.</p>
+<h1 id="wrapping-up">Wrapping up</h1>
+<p>Although there are many channels to feed from it&rsquo;s important to filter out the
+hype/noise and actually read them whenever you have some spare minutes. I
+usually go through some of them in the morning with a cup of coffee.</p>
+<p>Reading them is not enough, you have to tell the story to your colleagues in
+order for it to be imprinted in memory. Let me know what other sources did
+you find interesting, I&rsquo;ll gladly update this post with your recommendations,
+or your can also open a PR 😄</p>
+<section class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1" role="doc-endnote">
+<p><a href="https://devopsweeklyarchive.com">https://devopsweeklyarchive.com</a> <a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2" role="doc-endnote">
+<p><a href="https://t.me/s/DevOps101">https://t.me/s/DevOps101</a> <a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:3" role="doc-endnote">
+<p><a href="https://golangweekly.com">https://golangweekly.com</a> <a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:4" role="doc-endnote">
+<p><a href="https://github.com/derailed/k9s">https://github.com/derailed/k9s</a> <a href="#fnref:4" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:5" role="doc-endnote">
+<p><a href="https://www.reddit.com/r/devops/">https://www.reddit.com/r/devops/</a> <a href="#fnref:5" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:6" role="doc-endnote">
+<p><a href="https://www.reddit.com/r/kubernetes/">https://www.reddit.com/r/kubernetes/</a> <a href="#fnref:6" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:7" role="doc-endnote">
+<p><a href="https://kubernetespodcast.com">https://kubernetespodcast.com</a> <a href="#fnref:7" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:8" role="doc-endnote">
+<p><a href="https://thenewstack.io/podcasts/makers">https://thenewstack.io/podcasts/makers</a> <a href="#fnref:8" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:9" role="doc-endnote">
+<p><a href="https://www.se-radio.net">https://www.se-radio.net</a> <a href="#fnref:9" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</section>
+]]></content></item><item><title>Interesting Tech Conferences '21</title><link>https://dminca.github.io/2021/03/interesting-tech-conferences-21/</link><pubDate>Thu, 25 Mar 2021 21:25:14 +0100</pubDate><guid>https://dminca.github.io/2021/03/interesting-tech-conferences-21/</guid><description>This is the 2nd year conferences are being virtual and we can only benefit from this. Some of time are free whilst some, more popular, require a small fee.
 The topics these conferences cover mostly relate to the SRE (Site Reliability Engineer) role and they cover topics like:
 Security &amp;amp; DevSecOps Observability Multicloud Enterprise IT Infrastructure Kubernetes GitOps CI/CD (Continous Integration/Continous Deployment/Delivery) Incomming this year PromCon Online &amp;lsquo;21 1 📅 Date: May 3</description><content type="html"><![CDATA[<p>This is the 2nd year conferences are being virtual and we can only benefit
 from this. Some of time are free whilst some, more popular, require a small
