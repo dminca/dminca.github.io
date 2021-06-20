@@ -86,4 +86,4 @@ class Foo:
 		RunForrestRun()  # run along!
 {{< / highlight >}}
 
-{{% applemusic %}}
+{{< applemusic src="broken-parts/1564955284?i=1564955782" >}}
