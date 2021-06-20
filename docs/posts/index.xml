@@ -1,5 +1,23 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Daniel-Andrei Minca</title><link>https://dminca.github.io/posts/</link><description>Recent content in Posts on Daniel-Andrei Minca</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>&lt;a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0&lt;/a></copyright><lastBuildDate>Fri, 26 Mar 2021 21:27:07 +0100</lastBuildDate><atom:link href="https://dminca.github.io/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Sources I use for keeping up with IT news</title><link>https://dminca.github.io/2021/03/sources-i-use-for-keeping-up-with-it-news/</link><pubDate>Fri, 26 Mar 2021 21:27:07 +0100</pubDate><guid>https://dminca.github.io/2021/03/sources-i-use-for-keeping-up-with-it-news/</guid><description>As you may already know, keeping up with the news in the IT sector is necessary not only to further develop/extend your skillset but also it&amp;rsquo;s interesting to see how others tackle some issues as there are multiple schools of thought.
-This domain is to me the most fascinating because no matter how many certifications or diplomas you have at hand and no matter how much you know, you need to be a good team player.</description><content type="html"><![CDATA[<p>As you may already know, keeping up with the news in the IT sector is necessary
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Posts on Daniel-Andrei Minca</title>
+        <link>https://dminca.github.io/posts/</link>
+        <description>Recent content in Posts on Daniel-Andrei Minca</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
+        <lastBuildDate>Fri, 26 Mar 2021 21:27:07 +0100</lastBuildDate>
+        <atom:link href="https://dminca.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>Sources I use for keeping up with IT news</title>
+            <link>https://dminca.github.io/2021/03/sources-i-use-for-keeping-up-with-it-news/</link>
+            <pubDate>Fri, 26 Mar 2021 21:27:07 +0100</pubDate>
+            
+            <guid>https://dminca.github.io/2021/03/sources-i-use-for-keeping-up-with-it-news/</guid>
+            <description>As you may already know, keeping up with the news in the IT sector is necessary not only to further develop/extend your skillset but also it&amp;rsquo;s interesting to see how others tackle some issues as there are multiple schools of thought.
+This domain is to me the most fascinating because no matter how many certifications or diplomas you have at hand and no matter how much you know, you need to be a good team player.</description>
+            <content type="html"><![CDATA[<p>As you may already know, keeping up with the news in the IT sector is necessary
 not only to further develop/extend your skillset but also it&rsquo;s interesting to
 see how others tackle some issues as there are multiple schools of thought.</p>
 <p>This domain is to me the most fascinating because no matter how many certifications
@@ -102,9 +120,19 @@ or your can also open a PR 😄</p>
 </li>
 </ol>
 </section>
-]]></content></item><item><title>Interesting Tech Conferences '21</title><link>https://dminca.github.io/2021/03/interesting-tech-conferences-21/</link><pubDate>Thu, 25 Mar 2021 21:25:14 +0100</pubDate><guid>https://dminca.github.io/2021/03/interesting-tech-conferences-21/</guid><description>This is the 2nd year conferences are being virtual and we can only benefit from this. Some of time are free whilst some, more popular, require a small fee.
+]]></content>
+        </item>
+        
+        <item>
+            <title>Interesting Tech Conferences &#39;21</title>
+            <link>https://dminca.github.io/2021/03/interesting-tech-conferences-21/</link>
+            <pubDate>Thu, 25 Mar 2021 21:25:14 +0100</pubDate>
+            
+            <guid>https://dminca.github.io/2021/03/interesting-tech-conferences-21/</guid>
+            <description>This is the 2nd year conferences are being virtual and we can only benefit from this. Some of time are free whilst some, more popular, require a small fee.
 The topics these conferences cover mostly relate to the SRE (Site Reliability Engineer) role and they cover topics like:
-Security &amp;amp; DevSecOps Observability Multicloud Enterprise IT Infrastructure Kubernetes GitOps CI/CD (Continous Integration/Continous Deployment/Delivery) Incomming this year PromCon Online &amp;lsquo;21 1 📅 Date: May 3</description><content type="html"><![CDATA[<p>This is the 2nd year conferences are being virtual and we can only benefit
+ Security &amp;amp; DevSecOps Observability Multicloud Enterprise IT Infrastructure Kubernetes GitOps CI/CD (Continous Integration/Continous Deployment/Delivery)  Incomming this year PromCon Online &amp;lsquo;21 1 📅 Date: May 3</description>
+            <content type="html"><![CDATA[<p>This is the 2nd year conferences are being virtual and we can only benefit
 from this. Some of time are free whilst some, more popular, require a small
 fee.</p>
 <p>The topics these conferences cover mostly relate to the SRE (Site Reliability
@@ -183,9 +211,19 @@ a lot of possibilities.</p>
 </li>
 </ol>
 </section>
-]]></content></item><item><title>ZapCon 21</title><link>https://dminca.github.io/2021/02/zapcon-21/</link><pubDate>Thu, 25 Feb 2021 21:52:27 +0100</pubDate><guid>https://dminca.github.io/2021/02/zapcon-21/</guid><description>ZapCon &amp;lsquo;21 was scheduled on 9th March 2021
+]]></content>
+        </item>
+        
+        <item>
+            <title>ZapCon 21</title>
+            <link>https://dminca.github.io/2021/02/zapcon-21/</link>
+            <pubDate>Thu, 25 Feb 2021 21:52:27 +0100</pubDate>
+            
+            <guid>https://dminca.github.io/2021/02/zapcon-21/</guid>
+            <description>ZapCon &amp;lsquo;21 was scheduled on 9th March 2021
 What was interesting Robot Framework Democratizing ZAP with test automation and DSLs by Abhay Bhargav
-BDD (Behaviour Driven Development) in IT-Security apparently, there&amp;rsquo;s this robotframework which makes writing test cases in quite a simple way, and you can run pentests on your UI application Why using a DAST scanner? DAST (Dynamic Application Security Testing) keeps app secure:</description><content type="html"><![CDATA[<p><a href="https://zapcon.io">ZapCon &lsquo;21</a> was scheduled on 9th March 2021</p>
+ BDD (Behaviour Driven Development) in IT-Security  apparently, there&amp;rsquo;s this robotframework which makes writing test cases in quite a simple way, and you can run pentests on your UI application    Why using a DAST scanner? DAST (Dynamic Application Security Testing) keeps app secure:</description>
+            <content type="html"><![CDATA[<p><a href="https://zapcon.io">ZapCon &lsquo;21</a> was scheduled on 9th March 2021</p>
 <h1 id="what-was-interesting">What was interesting</h1>
 <h2 id="robot-framework3"><a href="https://youtu.be/xlt---D9I3w?t=2406">Robot Framework</a></h2>
 <p><a href="https://youtu.be/xlt---D9I3w?t=1190">Democratizing ZAP with test automation and DSLs</a> by Abhay Bhargav</p>
@@ -255,9 +293,19 @@ during blackbox testing</li>
 interesting part for me was the BDD with the Robot Framework, that&rsquo;s actually
 something interesting to implement in your Sec pipelines and you can actually
 run it in headless mode (no UI, no browser required).</p>
-]]></content></item><item><title>Security Tools</title><link>https://dminca.github.io/2021/02/security-tools/</link><pubDate>Thu, 25 Feb 2021 21:41:24 +0100</pubDate><guid>https://dminca.github.io/2021/02/security-tools/</guid><description>I never had the chance to compact a list of available Security tools in Q1 2021, here it goes. If something&amp;rsquo;s missing from this list, anyone can freely open a PR and I&amp;rsquo;ll gladly update the list.
+]]></content>
+        </item>
+        
+        <item>
+            <title>Security Tools</title>
+            <link>https://dminca.github.io/2021/02/security-tools/</link>
+            <pubDate>Thu, 25 Feb 2021 21:41:24 +0100</pubDate>
+            
+            <guid>https://dminca.github.io/2021/02/security-tools/</guid>
+            <description>I never had the chance to compact a list of available Security tools in Q1 2021, here it goes. If something&amp;rsquo;s missing from this list, anyone can freely open a PR and I&amp;rsquo;ll gladly update the list.
 Security tooling available By attending the ZapCon &amp;lsquo;21, I&amp;rsquo;ve received a feedback request email from them where I should list security tools I&amp;rsquo;ve used in the past.
-Name Pricing model checkmarx.</description><content type="html"><![CDATA[<p>I never had the chance to compact a list of available Security tools in Q1 2021, here it goes.
+   Name Pricing model     checkmarx.</description>
+            <content type="html"><![CDATA[<p>I never had the chance to compact a list of available Security tools in Q1 2021, here it goes.
 If something&rsquo;s missing from this list, anyone can freely open a PR and I&rsquo;ll gladly update the list.</p>
 <h1 id="security-tooling-available">Security tooling available</h1>
 <p>By attending the ZapCon &lsquo;21, I&rsquo;ve received a feedback request email from them where
@@ -334,8 +382,18 @@ just keeps escalating your issue to heavenly gates and you lose time &amp; neuro
 <p>Choosing something that&rsquo;s Open-Source has way more benefits because for most of the issues you could find a GitHub issue
 raised by someone else, or find something on StackOverflow, ddg.co or whatnot&hellip; it&rsquo;s also good to share your experiences to the
 community 😉</p>
-]]></content></item><item><title>IstioCon 21</title><link>https://dminca.github.io/2021/02/istiocon-21/</link><pubDate>Thu, 25 Feb 2021 09:17:47 +0100</pubDate><guid>https://dminca.github.io/2021/02/istiocon-21/</guid><description>ICYMI, IstioCon &amp;lsquo;21 was happening previous week 22-26 Feb 2021. Luckily the videos are still there, so if you want to check what&amp;rsquo;s been discussed you can still do it, it&amp;rsquo;s nice that you can login with  Apple ID also 😉
-Talks I found interesting I want to sketch a mesh for you - by Christian Posta ✨ installing the Istio control plane with the revision flag istioctl install .</description><content type="html"><![CDATA[<p>ICYMI, <a href="https://events.istio.io/istiocon-2021">IstioCon &lsquo;21</a> was happening previous week 22-26 Feb 2021. Luckily the videos are still there, so if you want to check what&rsquo;s
+]]></content>
+        </item>
+        
+        <item>
+            <title>IstioCon 21</title>
+            <link>https://dminca.github.io/2021/02/istiocon-21/</link>
+            <pubDate>Thu, 25 Feb 2021 09:17:47 +0100</pubDate>
+            
+            <guid>https://dminca.github.io/2021/02/istiocon-21/</guid>
+            <description>ICYMI, IstioCon &amp;lsquo;21 was happening previous week 22-26 Feb 2021. Luckily the videos are still there, so if you want to check what&amp;rsquo;s been discussed you can still do it, it&amp;rsquo;s nice that you can login with  Apple ID also 😉
+Talks I found interesting I want to sketch a mesh for you - by Christian Posta  ✨ installing the Istio control plane with the revision flag istioctl install .</description>
+            <content type="html"><![CDATA[<p>ICYMI, <a href="https://events.istio.io/istiocon-2021">IstioCon &lsquo;21</a> was happening previous week 22-26 Feb 2021. Luckily the videos are still there, so if you want to check what&rsquo;s
 been discussed you can still do it, it&rsquo;s nice that you can login with  Apple ID also 😉</p>
 <h1 id="talks-i-found-interesting">Talks I found interesting</h1>
 <h2 id="i-want-to-sketch-a-mesh-for-you2---by-christian-posta"><a href="https://www.crowdcast.io/e/istiocon-2021/3">I want to sketch a mesh for you</a> - by Christian Posta</h2>
@@ -420,9 +478,19 @@ presentations (they were really bad prepared), so I decided to just watch the re
 <p>Overall, this IstioCon &lsquo;21 was a win, as I managed to learn quite some new stuff about Istio overall, well, tbh, most
 important part for me was the troubleshooting and solving real life problems.</p>
 <p>PS: everything marked with ✨ are stuff that I won after this Con, thanks guys for the great conference!</p>
-]]></content></item><item><title>Hello World</title><link>https://dminca.github.io/2021/02/hello-world/</link><pubDate>Wed, 24 Feb 2021 22:26:52 +0100</pubDate><guid>https://dminca.github.io/2021/02/hello-world/</guid><description>It&amp;rsquo;s very interesting sometimes to test Golang blogging platforms
+]]></content>
+        </item>
+        
+        <item>
+            <title>Hello World</title>
+            <link>https://dminca.github.io/2021/02/hello-world/</link>
+            <pubDate>Wed, 24 Feb 2021 22:26:52 +0100</pubDate>
+            
+            <guid>https://dminca.github.io/2021/02/hello-world/</guid>
+            <description>It&amp;rsquo;s very interesting sometimes to test Golang blogging platforms
 This is a sample YAML manifest 😄
-{{- if (and (ne (.Values.ui.ingress.enabled | toString ) &amp;#34;-&amp;#34;) .Values.ui.ingress.enabled) }} {{- $serviceName := printf &amp;#34;%s-%s&amp;#34; (include &amp;#34;vault.fullname&amp;#34; .) &amp;#34;ui&amp;#34; -}} apiVersion: extensions/v1beta1 kind: Ingress metadata: name: {{ template &amp;#34;vault.fullname&amp;#34; . }}-ingress namespace: {{ .Release.Namespace }} labels: app: {{ template &amp;#34;vault.name&amp;#34; . }} chart: {{ template &amp;#34;vault.chart&amp;#34; . }} heritage: {{ .Release.Service }} release: {{ .</description><content type="html"><![CDATA[<p>It&rsquo;s very interesting sometimes to test Golang blogging platforms</p>
+{{- if (and (ne (.Values.ui.ingress.enabled | toString ) &amp;#34;-&amp;#34;) .Values.ui.ingress.enabled) }} {{- $serviceName := printf &amp;#34;%s-%s&amp;#34; (include &amp;#34;vault.fullname&amp;#34; .) &amp;#34;ui&amp;#34; -}} apiVersion: extensions/v1beta1 kind: Ingress metadata: name: {{ template &amp;#34;vault.fullname&amp;#34; . }}-ingress namespace: {{ .Release.Namespace }} labels: app: {{ template &amp;#34;vault.name&amp;#34; . }} chart: {{ template &amp;#34;vault.chart&amp;#34; . }} heritage: {{ .Release.Service }} release: {{ .</description>
+            <content type="html"><![CDATA[<p>It&rsquo;s very interesting sometimes to test Golang blogging platforms</p>
 <p>This is a sample YAML manifest 😄</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml">{{- <span style="color:#ae81ff">if (and (ne (.Values.ui.ingress.enabled | toString ) &#34;-&#34;) .Values.ui.ingress.enabled) }}</span>
 {{- <span style="color:#ae81ff">$serviceName := printf &#34;%s-%s&#34; (include &#34;vault.fullname&#34; .) &#34;ui&#34; -}}</span>
@@ -507,4 +575,9 @@ This is a sample YAML manifest 😄
 		RunForrestRun()  <span style="color:#75715e"># run along!</span></code></pre></td></tr></table>
 </div>
 </div>
-]]></content></item></channel></rss>
+<!-- raw HTML omitted -->
+]]></content>
+        </item>
+        
+    </channel>
+</rss>

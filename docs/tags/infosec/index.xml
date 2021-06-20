@@ -1,3 +1,23 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>infosec on Daniel-Andrei Minca</title><link>https://dminca.github.io/tags/infosec/</link><description>Recent content in infosec on Daniel-Andrei Minca</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>&lt;a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0&lt;/a></copyright><lastBuildDate>Thu, 25 Feb 2021 21:41:24 +0100</lastBuildDate><atom:link href="https://dminca.github.io/tags/infosec/index.xml" rel="self" type="application/rss+xml"/><item><title>Security Tools</title><link>https://dminca.github.io/2021/02/security-tools/</link><pubDate>Thu, 25 Feb 2021 21:41:24 +0100</pubDate><guid>https://dminca.github.io/2021/02/security-tools/</guid><description>I never had the chance to compact a list of available Security tools in Q1 2021, here it goes. If something&amp;rsquo;s missing from this list, anyone can freely open a PR and I&amp;rsquo;ll gladly update the list.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>infosec on Daniel-Andrei Minca</title>
+    <link>https://dminca.github.io/tags/infosec/</link>
+    <description>Recent content in infosec on Daniel-Andrei Minca</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
+    <lastBuildDate>Thu, 25 Feb 2021 21:41:24 +0100</lastBuildDate><atom:link href="https://dminca.github.io/tags/infosec/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Security Tools</title>
+      <link>https://dminca.github.io/2021/02/security-tools/</link>
+      <pubDate>Thu, 25 Feb 2021 21:41:24 +0100</pubDate>
+      
+      <guid>https://dminca.github.io/2021/02/security-tools/</guid>
+      <description>I never had the chance to compact a list of available Security tools in Q1 2021, here it goes. If something&amp;rsquo;s missing from this list, anyone can freely open a PR and I&amp;rsquo;ll gladly update the list.
 Security tooling available By attending the ZapCon &amp;lsquo;21, I&amp;rsquo;ve received a feedback request email from them where I should list security tools I&amp;rsquo;ve used in the past.
-Name Pricing model checkmarx.</description></item></channel></rss>
+   Name Pricing model     checkmarx.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -85,3 +85,5 @@ class Foo:
 	def run(self):
 		RunForrestRun()  # run along!
 {{< / highlight >}}
+
+{{% applemusic %}}
