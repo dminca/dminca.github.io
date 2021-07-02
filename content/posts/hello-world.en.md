@@ -87,3 +87,5 @@ class Foo:
 {{< / highlight >}}
 
 {{< applemusic src="broken-parts/1564955284?i=1564955782" >}}
+
+{{< artifacthub src="helm/jenkinsci/jenkins" theme="auto" >}}

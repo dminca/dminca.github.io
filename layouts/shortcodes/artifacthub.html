@@ -1,0 +1,3 @@
+{{ if .Get "src" }}
+    <div class="artifacthub-widget" data-url="https://artifacthub.io/packages/{{ .Get "src" | safeURL }}" data-theme="{{ .Get "theme" | default "light" }}" data-header="true" data-responsive="false"></div><script async src="https://artifacthub.io/artifacthub-widget.js"></script>
+{{ end }}
