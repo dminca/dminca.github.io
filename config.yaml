@@ -82,6 +82,9 @@ languages:
       rel="noopener">CC BY-NC 4.0</a>
 menu:
   main:
+    - identifier: about
+      name: About
+      url: /about
     - identifier: posts
       name: Posts
       url: /posts

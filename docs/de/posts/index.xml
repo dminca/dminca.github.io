@@ -1,3 +1,88 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Daniel-Andrei Minca</title><link>https://dminca.github.io/de/posts/</link><description>Recent content in Posts on Daniel-Andrei Minca</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>&lt;a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0&lt;/a></copyright><lastBuildDate>Wed, 24 Feb 2021 22:26:52 +0100</lastBuildDate><atom:link href="https://dminca.github.io/de/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Hello World</title><link>https://dminca.github.io/de/2021/02/hello-world/</link><pubDate>Wed, 24 Feb 2021 22:26:52 +0100</pubDate><guid>https://dminca.github.io/de/2021/02/hello-world/</guid><description>Probieren wir erstmal die Platforme ob sie in gute zustand ist
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Daniel-Andrei Minca</title><link>https://dminca.github.io/de/posts/</link><description>Recent content in Posts on Daniel-Andrei Minca</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>&lt;a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0&lt;/a></copyright><lastBuildDate>Wed, 24 Feb 2021 22:26:52 +0100</lastBuildDate><atom:link href="https://dminca.github.io/de/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Hello World</title><link>https://dminca.github.io/de/2021/02/hello-world/</link><pubDate>Wed, 24 Feb 2021 22:26:52 +0100</pubDate><guid>https://dminca.github.io/de/2021/02/hello-world/</guid><description>Probieren wir erstmal die Platforme ob sie in gute zustand ist
 Hier ist ein einfacher YAML Dokument 😄
-{{- if (and (ne (.Values.ui.ingress.enabled | toString ) &amp;#34;-&amp;#34;) .Values.ui.ingress.enabled) }} {{- $serviceName := printf &amp;#34;%s-%s&amp;#34; (include &amp;#34;vault.fullname&amp;#34; .) &amp;#34;ui&amp;#34; -}} apiVersion: extensions/v1beta1 kind: Ingress metadata: name: {{ template &amp;#34;vault.fullname&amp;#34; . }}-ingress namespace: {{ .Release.Namespace }} labels: app: {{ template &amp;#34;vault.name&amp;#34; . }} chart: {{ template &amp;#34;vault.chart&amp;#34; . }} heritage: {{ .Release.Service }} release: {{ .</description></item></channel></rss>
+{{- if (and (ne (.Values.ui.ingress.enabled | toString ) &amp;#34;-&amp;#34;) .Values.ui.ingress.enabled) }} {{- $serviceName := printf &amp;#34;%s-%s&amp;#34; (include &amp;#34;vault.fullname&amp;#34; .) &amp;#34;ui&amp;#34; -}} apiVersion: extensions/v1beta1 kind: Ingress metadata: name: {{ template &amp;#34;vault.fullname&amp;#34; . }}-ingress namespace: {{ .Release.Namespace }} labels: app: {{ template &amp;#34;vault.name&amp;#34; . }} chart: {{ template &amp;#34;vault.chart&amp;#34; . }} heritage: {{ .Release.Service }} release: {{ .</description><content type="html"><![CDATA[<p>Probieren wir erstmal die Platforme ob sie in gute zustand ist</p>
+<p>Hier ist ein einfacher YAML Dokument 😄</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml">{{- <span style="color:#ae81ff">if (and (ne (.Values.ui.ingress.enabled | toString ) &#34;-&#34;) .Values.ui.ingress.enabled) }}</span>
+{{- <span style="color:#ae81ff">$serviceName := printf &#34;%s-%s&#34; (include &#34;vault.fullname&#34; .) &#34;ui&#34; -}}</span>
+<span style="color:#f92672">apiVersion</span>: <span style="color:#ae81ff">extensions/v1beta1</span>
+<span style="color:#f92672">kind</span>: <span style="color:#ae81ff">Ingress</span>
+<span style="color:#f92672">metadata</span>:
+  <span style="color:#f92672">name</span>: {{ <span style="color:#ae81ff">template &#34;vault.fullname&#34; . }}-ingress</span>
+  <span style="color:#f92672">namespace</span>: {{ <span style="color:#ae81ff">.Release.Namespace }}</span>
+  <span style="color:#f92672">labels</span>:
+    <span style="color:#f92672">app</span>: {{ <span style="color:#ae81ff">template &#34;vault.name&#34; . }}</span>
+    <span style="color:#f92672">chart</span>: {{ <span style="color:#ae81ff">template &#34;vault.chart&#34; . }}</span>
+    <span style="color:#f92672">heritage</span>: {{ <span style="color:#ae81ff">.Release.Service }}</span>
+    <span style="color:#f92672">release</span>: {{ <span style="color:#ae81ff">.Release.Name }}</span>
+  {{- <span style="color:#ae81ff">if .Values.ui.ingress.annotations }}</span>
+  <span style="color:#f92672">annotations</span>:
+{{ <span style="color:#ae81ff">toYaml .Values.ui.ingress.annotations | indent 4 }}</span>
+  {{- <span style="color:#ae81ff">end }}</span>
+<span style="color:#f92672">spec</span>:
+  <span style="color:#f92672">rules</span>:
+    {{- <span style="color:#ae81ff">range .Values.ui.ingress.hosts }}</span>
+    - <span style="color:#f92672">host</span>: {{ <span style="color:#ae81ff">. }}</span>
+      <span style="color:#f92672">http</span>:
+        <span style="color:#f92672">paths</span>:
+          - <span style="color:#f92672">backend</span>:
+              <span style="color:#f92672">serviceName</span>: {{ <span style="color:#ae81ff">$serviceName }}</span>
+              <span style="color:#f92672">servicePort</span>: <span style="color:#ae81ff">http</span>
+    {{- <span style="color:#ae81ff">end -}}</span>
+  {{- <span style="color:#ae81ff">if .Values.ui.ingress.tls }}</span>
+  <span style="color:#f92672">tls</span>:
+    {{- <span style="color:#ae81ff">range $value := .Values.ui.ingress.tls }}</span>
+    - <span style="color:#f92672">hosts</span>:
+      {{- <span style="color:#ae81ff">range $value.hosts }}</span>
+      - {{ <span style="color:#ae81ff">. }}</span>
+      {{- <span style="color:#ae81ff">end }}</span>
+      <span style="color:#f92672">secretName</span>: {{ <span style="color:#ae81ff">$value.secretName }}</span>
+    {{- <span style="color:#ae81ff">end }}</span>
+  {{- <span style="color:#ae81ff">end }}</span>
+{{- <span style="color:#ae81ff">end }}</span>
+</code></pre></div><h2 id="ein-bisschen-python-für-die-überraschung-element">Ein bisschen Python für die Überraschung Element</h2>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e">#!/usr/bin/python3</span>
+
+<span style="color:#f92672">from</span> engine <span style="color:#f92672">import</span> RunForrestRun
+
+<span style="color:#e6db74">&#34;&#34;&#34;Test code for syntax highlighting!&#34;&#34;&#34;</span>
+
+<span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Foo</span>:
+	<span style="color:#66d9ef">def</span> __init__(self, var):
+		self<span style="color:#f92672">.</span>var <span style="color:#f92672">=</span> var
+		self<span style="color:#f92672">.</span>run()
+
+	<span style="color:#66d9ef">def</span> <span style="color:#a6e22e">run</span>(self):
+		RunForrestRun()  <span style="color:#75715e"># run along!</span>
+</code></pre></div><div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
+</span><span style="display:block;width:100%;background-color:#3c3d38"><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
+</span></span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
+</span><span style="display:block;width:100%;background-color:#3c3d38"><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5
+</span></span><span style="display:block;width:100%;background-color:#3c3d38"><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6
+</span></span><span style="display:block;width:100%;background-color:#3c3d38"><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7
+</span></span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">12
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">13
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e">#!/usr/bin/python3</span>
+
+<span style="display:block;width:100%;background-color:#3c3d38"><span style="color:#f92672">from</span> engine <span style="color:#f92672">import</span> RunForrestRun
+</span>
+<span style="display:block;width:100%;background-color:#3c3d38"><span style="color:#e6db74">&#34;&#34;&#34;Test code for syntax highlighting!&#34;&#34;&#34;</span>
+</span><span style="display:block;width:100%;background-color:#3c3d38">
+</span><span style="display:block;width:100%;background-color:#3c3d38"><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Foo</span>:
+</span>	<span style="color:#66d9ef">def</span> __init__(self, var):
+		self<span style="color:#f92672">.</span>var <span style="color:#f92672">=</span> var
+		self<span style="color:#f92672">.</span>run()
+
+	<span style="color:#66d9ef">def</span> <span style="color:#a6e22e">run</span>(self):
+		RunForrestRun()  <span style="color:#75715e"># run along!</span></code></pre></td></tr></table>
+</div>
+</div>
+]]></content></item></channel></rss>
