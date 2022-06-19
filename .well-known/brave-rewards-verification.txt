@@ -1,4 +1,0 @@
-This is a Brave Rewards publisher verification file.
-
-Domain: dminca.github.io
-Token: 70fb1a4f3afee13143c2bc936fe210a462c4f6a68004d3e6887d816896ed50f8
