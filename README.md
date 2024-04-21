@@ -1,4 +1,4 @@
-# Personal blog [![status-badge](https://ci.codeberg.org/api/badges/dminca/pages/status.svg?branch=hugo)](https://ci.codeberg.org/dminca/pages)
+# Personal blog [![Deploy Hugo site to Pages](https://github.com/dminca/dminca.github.io/actions/workflows/hugo.yml/badge.svg)](https://github.com/dminca/dminca.github.io/actions/workflows/hugo.yml)
 
 ## Initial setup
 On a first clone, you'd wanna do it this way
