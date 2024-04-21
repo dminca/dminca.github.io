@@ -14,6 +14,11 @@ enableCodeCopy = true
 
 # mainSections = ["section1", "section2"]
 # robots = ""
+description = "Site Reliability Engineer"
+isoCode = "en"
+displayName = "EN"
+rtl = false
+dateFormat = "2 January 2006"
 
 [header]
   layout = "basic" # valid options: basic, hamburger, custom

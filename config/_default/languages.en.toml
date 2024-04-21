@@ -1,16 +1,11 @@
 languageCode = "en"
 languageName = "English"
-displayName = "EN"
-isoCode = "en"
 weight = 1
-rtl = false
 
 title = "Daniel-Andrei Minca"
 # logo = "img/logo.jpg"
-description = "Site Reliability Engineer"
 #copyright = "CC BY-NC"
 
-dateFormat = "2 January 2006"
 
 [author]
   name = "Daniel-Andrei Minca"
