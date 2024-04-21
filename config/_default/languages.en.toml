@@ -7,7 +7,7 @@ title = "Daniel-Andrei Minca"
 #copyright = "CC BY-NC"
 
 
-[author]
+[params.author]
   name = "Daniel-Andrei Minca"
   #image = "img/author.jpg"
   headline = "Site Reliability Engineer"
