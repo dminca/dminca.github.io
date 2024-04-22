@@ -17,7 +17,7 @@
 
 [[main]]
   name = "Résumé"
-  url = "https://codeberg.org/dminca/latex-resume/raw/branch/master/src/dminca/dminca.pdf"
+  url = "https://github.com/dminca/latex-resume/blob/main/dminca.pdf"
   weight = 11
 
 [[main]]
