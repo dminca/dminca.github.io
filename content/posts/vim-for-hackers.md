@@ -13,6 +13,8 @@ tags:
 don't use it properly and it's just going to cause more pain and sorrow.
 {{< /lead >}}
 
+Handy vim cheatsheet: https://vim.rtorr.com
+
 # How to add text at the end of each line
 
 Use-case: assume you just copied a whole column of text and just want to
