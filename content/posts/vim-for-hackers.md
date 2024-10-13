@@ -139,7 +139,7 @@ The first step can be done with any command that populates the quickfix list: `
 
 Taking `:grep` as an example:
 
-```
+```vim
 :grep foo **/*.js
 
 ```
@@ -148,14 +148,14 @@ will populate the quickfix list with an entry for every `foo` found in `*.js`
 
 The second step involves `:help :cdo` or `:help :cfdo`:
 
-```
+```vim
 :cdo s/foo/bar/gc
 
 ```
 
 which will substitute every `foo` with `bar` on each line in the quickfix list and ask for confirmation. With `:cfdo` it would look like that:
 
-```
+```vim
 :cfdo %s/foo/bar/gc
 
 ```
@@ -164,7 +164,7 @@ If you are super confident, you can drop the `c` at the end. See `:help :s_fl
 
 The third step involves `:help :update`:
 
-```
+```vim
 :cfdo update
 
 ```
@@ -173,7 +173,7 @@ which will write every file in the quickfix list to disk if they have been chang
 
 In short:
 
-```
+```vim
 :gr foo **/*.js
 :cdo s/foo/bar/gc
 :cfdo up
