@@ -180,3 +180,15 @@ In short:
 
 ```
 
+# Remove all unwanted whitespaces
+
+Ever had those pesky trailing whitespaces? How about those on a newline? Well, this trick should do it
+
+```vim
+:%s/\s\+$//e
+```
+{{< alert "lightbulb" >}}
+The explanation: In a search,`\s` finds whitespace (a space or a tab), and `\+` finds one or more occurrences.
+The following command deletes any trailing whitespace at the end of each line. If no trailing whitespace is found no change occurs, and the `e` flag means no error is displayed
+{{< /alert >}}
+
