@@ -66,5 +66,50 @@ kubectl patch pvc <pvc-name> -p '{"metadata":{"finalizers":null}}'
 
 Also kudos [Dean Lewis](https://veducate.co.uk/kubernetes-pvc-terminating/)
 
+# Delete a Pod stuck in "Terminating" state
+
+{{< alert "triangle-exclamation" >}}
+This is a dangerous operation. Be prepared in case you might corrupt the ETCD
+database and have a backup. These resources might be in handy:
+- https://kubernetes.io/docs/tasks/administer-cluster/configure-upgrade-etcd/#replacing-a-failed-etcd-member
+- https://kubernetes.io/docs/tasks/administer-cluster/configure-upgrade-etcd/#securing-communication
+{{< /alert >}}
+
+
+If you did everything in order to delete a Pod, meaning delete its dependencies
+and it's still not terminating, last resort is to attempt a removal from ETCD
+
+## Identify the IPs of your ETCD replicas
+
+Let's assume we have these IPs
+
+```sh
+10.11.68.181
+10.11.68.226
+10.11.68.164
+```
+
+and we want to terminate the Pod `oops-im-stuck-1234`
+
+## Santity check: list the Pod
+
+```sh
+ETCDCTL_API=3 etcdctl --endpoints=https://10.11.68.181:2379,https://10.11.68.226:2379,https://10.11.68.164:2379 \
+  --cert=/etc/kubernetes/pki/etcd/server.crt \
+  --key=/etc/kubernetes/pki/etcd/server.key \
+  --cacert=/etc/kubernetes/pki/etcd/ca.crt \
+  get --prefix "/registry/pods/default/oops-im-stuck-1234"
+```
+
+## Delete the Pod from ETCD
+
+```sh
+ETCDCTL_API=3 etcdctl --endpoints=https://10.11.68.181:2379,https://10.11.68.226:2379,https://10.11.68.164:2379 \
+  --cert=/etc/kubernetes/pki/etcd/server.crt \
+  --key=/etc/kubernetes/pki/etcd/server.key \
+  --cacert=/etc/kubernetes/pki/etcd/ca.crt \
+  del "/registry/pods/default/oops-im-stuck-1234"
+```
+
 [1]: https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands#-em-undo-em-
 
