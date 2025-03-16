@@ -4,7 +4,7 @@
 On a first clone, you'd wanna do it this way
 
 ```sh
-git clone -b hugo https://codeberg.org/dminca/pages.git
+git clone https://github.com/dminca/dminca.github.io.git
 ```
 
 Then we have to pull the theme which is installed with `hugo`
