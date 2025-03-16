@@ -34,6 +34,14 @@ hugo serve --buildDrafts -p 8080
 
 Now head-off to http://localhost:8080 and check if all okay
 
+## Adding content
+
+1. follow [this guide][3]
+
+```sh
+hugo new content content/posts/my-first-post.md
+```
+
 ### Assets (media and all that)
 They're tracked with [`git-lfs`][1] which I've installed via
 
@@ -77,3 +85,4 @@ hugo mod clean
 
 [1]: https://git-lfs.github.com
 [2]: https://woodpecker-ci.org/plugins/plugin-git
+[3]: https://gohugo.io/getting-started/quick-start/#add-content
