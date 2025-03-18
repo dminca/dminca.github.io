@@ -19,6 +19,17 @@ happening again.
 
 # PiHole settings
 
+## DNS
+
+1. AuthN to [nextdns.io](https://nextdns.io)
+1. copy IPv4 & IPv6 of NextDNS
+1. come back to PiHole
+1. Settings → DNS → Custom DNS servers
+1. *paste them in this box*
+1. *Save&Apply*
+
+## DHCP
+
 1. Settings → DHCP → DHCP Settings
 1. toggle **DHCP server enabled**
     - input a range, eg. `x.x.x.100 - 200`
@@ -39,6 +50,7 @@ ping: sendto: No route to host
 
 There's no point to discuss what'll `nc -zv x.x.x.x 22` return.
 {{< /alert >}}
+
 
 # Modem (router) settings
 
