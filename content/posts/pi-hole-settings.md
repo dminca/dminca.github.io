@@ -76,3 +76,74 @@ There's no point to discuss what'll `nc -zv x.x.x.x 22` return.
 server. This is needed in order to have **client hostnames** shown in PiHole
 dashboard.
 {{< /alert >}}
+
+# F.A.Q.
+
+## PiHole lacks an IPv4 address
+
+Even though you've pinned it on the modem somehow PiHole flushed it. This is
+how you can pin it.
+
+Since you're using Raspberry Pi OS Lite and don't have the dhcpcd service, you can set a static IP address using the Network Manager tool. Here's how to do it:
+
+### Using nmtui
+
+1. Open the Network Manager text user interface by running:
+
+```bash
+sudo nmtui
+```
+
+2. Select "Edit a connection" and choose your network interface (either eth0 for Ethernet or wlan0 for Wi-Fi).
+
+3. Navigate to "IPv4 CONFIGURATION" and change it from "Automatic" to "Manual".
+
+4. Add your desired static IP address, along with the subnet mask (usually /24), gateway, and DNS servers.
+
+5. Save the configuration and exit nmtui.
+
+6. Reboot your Raspberry Pi to apply the changes:
+
+```bash
+sudo reboot
+```
+
+### Alternative Method: Editing Configuration Files
+
+If you prefer editing configuration files directly, you can modify the NetworkManager connection file:
+
+1. Find your connection file in `/etc/NetworkManager/system-connections/`.
+
+2. Edit the file using sudo:
+
+```bash
+sudo nano /etc/NetworkManager/system-connections/your_connection_file
+```
+
+3. In the [ipv4] section, add or modify these lines:
+
+```
+[ipv4]
+method=manual
+address1=192.168.1.X/24,192.168.1.1
+dns=192.168.1.1;8.8.8.8;
+```
+
+Replace "192.168.1.X" with your desired static IP, and adjust the gateway and DNS servers as needed.
+
+4. Save the file and restart the NetworkManager service:
+
+```bash
+sudo systemctl restart NetworkManager
+```
+
+These methods should allow you to set a static IP address on your Raspberry Pi OS Lite system without relying on the dhcpcd service[^1][^3][^5].
+
+Sources
+[^1]: How to Set Up a Raspberry Pi Static IP Address - Pi My Life Up https://pimylifeup.com/raspberry-pi-static-ip-address/
+[^2]: How to give your Raspberry Pi a Static IP Address - UPDATE https://thepihut.com/blogs/raspberry-pi-tutorials/how-to-give-your-raspberry-pi-a-static-ip-address-update
+[^3]: Set a static IP address with nmtui on Raspberry Pi OS 12 'Bookworm' https://www.jeffgeerling.com/blog/2024/set-static-ip-address-nmtui-on-raspberry-pi-os-12-bookworm
+[^4]: How to set static IP on Raspberry Pi 4b (64bit - lite) : r/raspberry_pi https://www.reddit.com/r/raspberry_pi/comments/17l10wr/how_to_set_static_ip_on_raspberry_pi_4b_64bit_lite/
+[^5]: How to set a static IP address in PiOS? - Raspberry Pi Forums https://forums.raspberrypi.com/viewtopic.php?t=362637
+[^6]: How to Set a Static IP Address on Raspberry Pi | Tom's Hardware https://www.tomshardware.com/how-to/static-ip-raspberry-pi
+[^7]: RIGHT and WRONG ways to give a STATIC IP to your Raspberry PI https://www.youtube.com/watch?v=VJtIedYfvSk
