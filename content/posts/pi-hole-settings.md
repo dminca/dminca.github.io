@@ -139,7 +139,6 @@ sudo systemctl restart NetworkManager
 
 These methods should allow you to set a static IP address on your Raspberry Pi OS Lite system without relying on the dhcpcd service[^1][^3][^5].
 
-Sources
 [^1]: How to Set Up a Raspberry Pi Static IP Address - Pi My Life Up https://pimylifeup.com/raspberry-pi-static-ip-address/
 [^2]: How to give your Raspberry Pi a Static IP Address - UPDATE https://thepihut.com/blogs/raspberry-pi-tutorials/how-to-give-your-raspberry-pi-a-static-ip-address-update
 [^3]: Set a static IP address with nmtui on Raspberry Pi OS 12 'Bookworm' https://www.jeffgeerling.com/blog/2024/set-static-ip-address-nmtui-on-raspberry-pi-os-12-bookworm
