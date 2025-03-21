@@ -21,7 +21,14 @@ happening again.
 
 ## DNS
 
-1. AuthN to [nextdns.io](https://nextdns.io)
+### Providers
+
+1. [NextDNS][^8]
+1. [DNS0.eu][^9]
+
+### Setup
+
+1. AuthN to [nextdns.io][^8]
 1. copy IPv4 & IPv6 of NextDNS
 1. come back to PiHole
 1. Settings → DNS → Custom DNS servers
@@ -146,3 +153,5 @@ These methods should allow you to set a static IP address on your Raspberry Pi O
 [^5]: How to set a static IP address in PiOS? - Raspberry Pi Forums https://forums.raspberrypi.com/viewtopic.php?t=362637
 [^6]: How to Set a Static IP Address on Raspberry Pi | Tom's Hardware https://www.tomshardware.com/how-to/static-ip-raspberry-pi
 [^7]: RIGHT and WRONG ways to give a STATIC IP to your Raspberry PI https://www.youtube.com/watch?v=VJtIedYfvSk
+[^8]: https://nextdns.io
+[^9]: https://www.dns0.eu
