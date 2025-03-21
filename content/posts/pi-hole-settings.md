@@ -25,6 +25,7 @@ happening again.
 
 1. NextDNS[^8]
 1. DNS0.eu[^9]
+1. Mullvad DNS[^10]
 
 ### Setup
 
@@ -186,3 +187,4 @@ ssh-keygen -R example.com
 [^7]: RIGHT and WRONG ways to give a STATIC IP to your Raspberry PI https://www.youtube.com/watch?v=VJtIedYfvSk
 [^8]: https://nextdns.io
 [^9]: https://www.dns0.eu
+[^10]: https://mullvad.net/en/help/dns-over-https-and-dns-over-tls
