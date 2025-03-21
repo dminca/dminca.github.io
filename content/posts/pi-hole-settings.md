@@ -23,12 +23,12 @@ happening again.
 
 ### Providers
 
-1. [NextDNS][^8]
-1. [DNS0.eu][^9]
+1. NextDNS[^8]
+1. DNS0.eu[^9]
 
 ### Setup
 
-1. AuthN to [nextdns.io][^8]
+1. AuthN to nextdns.io[^8]
 1. copy IPv4 & IPv6 of NextDNS
 1. come back to PiHole
 1. Settings → DNS → Custom DNS servers
@@ -145,6 +145,27 @@ sudo systemctl restart NetworkManager
 ```
 
 These methods should allow you to set a static IP address on your Raspberry Pi OS Lite system without relying on the dhcpcd service[^1][^3][^5].
+
+## Cannot SSH into my PiHole because there's no IPv4 attached to it!
+
+If there's no IPv4, there's an IPv6 for sure, try using that instead
+
+```sh
+ssh pi@2001:db8:0:2234:5678:9abc:def0:1234
+```
+
+## Rebooted my PiHole and I don't know if it came up
+
+Ping either IPv4 or IPv6; whichever's attached.
+
+```bash
+# traditional ping IPv4
+ping pi.hole
+ping 192.0.2.42
+
+# ping IPv6
+ping6 2001:db8:0:2234:5678:9abc:def0:1234
+```
 
 [^1]: How to Set Up a Raspberry Pi Static IP Address - Pi My Life Up https://pimylifeup.com/raspberry-pi-static-ip-address/
 [^2]: How to give your Raspberry Pi a Static IP Address - UPDATE https://thepihut.com/blogs/raspberry-pi-tutorials/how-to-give-your-raspberry-pi-a-static-ip-address-update
