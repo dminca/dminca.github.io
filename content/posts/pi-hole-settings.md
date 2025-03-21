@@ -167,6 +167,16 @@ ping 192.0.2.42
 ping6 2001:db8:0:2234:5678:9abc:def0:1234
 ```
 
+## Cannot SSH onto my PiHole because of SSH strictHostKeyChecking
+
+1. remove the host from `~/.ssh/known_hosts`
+
+```sh
+ssh-keygen -R example.com
+```
+
+1. retry SSH-ing again
+
 [^1]: How to Set Up a Raspberry Pi Static IP Address - Pi My Life Up https://pimylifeup.com/raspberry-pi-static-ip-address/
 [^2]: How to give your Raspberry Pi a Static IP Address - UPDATE https://thepihut.com/blogs/raspberry-pi-tutorials/how-to-give-your-raspberry-pi-a-static-ip-address-update
 [^3]: Set a static IP address with nmtui on Raspberry Pi OS 12 'Bookworm' https://www.jeffgeerling.com/blog/2024/set-static-ip-address-nmtui-on-raspberry-pi-os-12-bookworm
