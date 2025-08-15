@@ -17,9 +17,15 @@ tags:
 3. [Startx LimitRange (sxlimits)][3]
     - [Simplifying Kubernetes Limits Range with sxlimits | Medium][4]
     - The sxlimits command line can interact with a kubernetes cluster and allow operations on the LimitRanges resources like resize or adjust to update the spec.hard values
+4. [kubectl plugin to print Kubernetes resource conditions][5]
+    - kubectl plugin to print Kubernetes object resource conditions in a more human-readable format
+5. [open-source JSON Editor][6]
+    - JSON Crack is a tool for visualizing JSON data in a structured, interactive graphs, making it easier to explore, format, and validate JSON. It offers features like converting JSON to other formats (CSV, YAML), generating JSON Schema, executing queries, and exporting visualizations as images. Designed for both readability and usability
 
 
 [1]: https://pepr.dev
 [2]: https://fluxcd.control-plane.io/guides/flux-policies/
 [3]: https://sxlimits.readthedocs.io/en/stable/
 [4]: https://startxfr.medium.com/simplifying-kubernetes-limits-range-with-sxlimits-604a96eaaf2c
+[5]: https://github.com/ahmetb/kubectl-cond
+[6]: https://github.com/AykutSarac/jsoncrack.com
