@@ -6,10 +6,6 @@ description: "Mostly command line hacks to speedup workflow"
 tags: [ kubernetes, tips, til ]
 ---
 
-{{< badge >}}
-Further tips will follow!
-{{< /badge >}}
-
 # Fetch revisions for a `StatefulSet`
 
 Revisions for `StatefulSet` & `DaemonSet` are stored in `ControllerRevision`
