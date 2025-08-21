@@ -11,3 +11,6 @@ summaryLength = 0
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
+
+[[imports]]
+path = "github.com/jpanther/congo/v2"
