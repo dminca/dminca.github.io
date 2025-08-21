@@ -17,12 +17,10 @@ any issues whatsoever, but those were written 6mo. or even +1 years ago and as
 you already know, a lot can change in the Tech/IT/Software domain in that
 amount of time and when it does it breaks some shits.
 
-{{< alert "lightbulb" >}}
-This is only valid for Apple Silicon <abbr title="Apple MacBooks">Macs</abbr>,
+> This is only valid for Apple Silicon <abbr title="Apple MacBooks">Macs</abbr>,
 the Intel-based <abbr title="Apple MacBooks">Macs</abbr> will just install the
 package in its ordinary place ( `/usr/local/bin/fish` ). The installation was
 ran on M1 Mac with MacOS Monterey 12.5.
-{{< /alert >}}
 
 # Initial install
 

@@ -12,16 +12,9 @@ some awesome <abbr title="Free Open Source Software">FOSS</abbr> tooling.
 
 # Invidious (YouTube alternative)
 
-{{< figure
-    src="https://invidious.io/invidious-colored-vector.svg"
-    alt="Invidious logo"
-    width="20%"
-    height="20%"
-    caption="Official logo of [Invidious](https://invidious.io)"
-    default=true
-    >}}
+![Invidious logo](https://invidious.io/invidious-colored-vector.svg)
 
-{{< button href="https://invidious.io" target="_blank" >}}Source{{< /button >}}
+Source[^1]
 
 Invidious is an open source alternative front-end to YouTube.
 
@@ -30,16 +23,9 @@ check the available instances https://docs.invidious.io/instances/
 
 # Nitter (Twitter alternative)
 
-{{< figure
-    src="https://raw.githubusercontent.com/zedeus/nitter/master/public/logo.png"
-    alt="Nitter logo"
-    width="20%"
-    height="20%"
-    caption="Official logo of [Nitter](https://github.com/zedeus/nitter)"
-    default=true
-    >}}
+![Nitter logo](https://raw.githubusercontent.com/zedeus/nitter/master/public/logo.png)
 
-{{< button href="https://github.com/zedeus/nitter" target="_blank" >}}Source{{< /button >}}
+Source[^2]
 
 Alternative Twitter front-end.
 
@@ -52,31 +38,17 @@ an instance from this list https://github.com/xnaas/nitter-instances
 
 # PeerTube (YouTube alternative)
 
-{{< figure
-    src="https://joinpeertube.org/img/brand.png"
-    alt="PeerTube logo"
-    width="20%"
-    height="20%"
-    caption="Official logo of [PeerTube](https://joinpeertube.org)"
-    default=true
-    >}}
+![PeerTube logo](https://joinpeertube.org/img/brand.png)
 
-{{< button href="https://joinpeertube.org" target="_blank" >}}Source{{< /button >}}
+Source[^3]
 
 free and decentralized alternative to video platforms
 
 # Mastodon (Twitter alternative)
 
-{{< figure
-    src="https://joinmastodon.org/static/media/logo_full.97822390.svg"
-    alt="Mastodon logo"
-    width="20%"
-    height="20%"
-    caption="Official logo of [Mastodon](https://joinmastodon.org)"
-    default=true
-    >}}
+![Mastodon logo](https://joinmastodon.org/static/media/logo_full.97822390.svg)
 
-{{< button href="https://joinmastodon.org" target="_blank" >}}Source{{< /button >}}
+Source[^4]
 
 Mastodon isn’t a single website like Twitter or Facebook, it's a network of
 thousands of servers operated by different organizations and individuals that
@@ -86,16 +58,9 @@ There are lots of instances https://joinmastodon.org/communities
 
 # Pixelfed (Instagram alternative)
 
-{{< figure
-    src="https://pixelfed.org/img/logo.svg"
-    alt="Pixelfed logo"
-    width="20%"
-    height="20%"
-    caption="Official logo of [Pixelfed](https://pixelfed.org)"
-    default=true
-    >}}
+![Pixelfed logo](https://pixelfed.org/img/logo.svg)
 
-{{< button href="https://pixelfed.org" target="_blank" >}}Source{{< /button >}}
+Source[^5]
 
 A federated free and ethical photo sharing platform.
 
@@ -103,31 +68,24 @@ Instances: https://fedidb.org/software/pixelfed
 
 # Codeberg (GitHub alternative)
 
-{{< figure
-    src="https://codeberg.org/assets/img/logo.svg"
-    alt="Codeberg logo"
-    width="20%"
-    height="20%"
-    caption="Official logo of [Codeberg](https://codeberg.org)"
-    default=true
-    >}}
+![Codeberg logo](https://codeberg.org/assets/img/logo.svg)
 
-{{< button href="https://codeberg.org" target="_blank" >}}Source{{< /button >}}
+Source[^6]
 
-Free git hosting platform with no tracking. They use [Woodpecker CI](https://woodpecker-ci.org)
-for <abbr title="Continous Integration/Continous Deployment">CI/CD</abbr> pipelines. They're built on top of [gitea](https://gitea.io/en-us/)
-which in [`v1.17.0` have layed the foundation for federation][1], which means
+Free git hosting platform with no tracking. They use Woodpecker CI[^7]
+for <abbr title="Continous Integration/Continous Deployment">CI/CD</abbr> pipelines. They're built on top of gitea[^8]
+which in `v1.17.0` have layed the foundation for federation[^9], which means
 it will allow instances to communicate with each other in the future.
 
 # Codeberg pages (GitHub Pages alternative)
 
-{{< button href="https://codeberg.page" target="_blank" >}}Source{{< /button >}}
+Source[^10]
 
 Here's my blog configuration to get you started https://codeberg.org/dminca/pages
 
 # Bibliogram (Instagram alternative)
 
-{{< button href="https://sr.ht/~cadence/bibliogram/" target="_blank" >}}Source{{< /button >}}
+Source[^11]
 
 Bibliogram is an alternative front-end for Instagram.
 Bibliogram works without browser JavaScript, has no ads or tracking, and
@@ -139,24 +97,39 @@ Lists of instances:
 
 # Proxitok (TikTok alternative)
 
-{{< button href="https://github.com/pablouser1/ProxiTok" target="_blank" >}}Source{{< /button >}}
+Source[^12]
 
 Instances:
 * https://github.com/pablouser1/ProxiTok/wiki/Public-instances
 
 # Teddit (Reddit alternative)
 
-{{< button href="https://codeberg.org/teddit/teddit" target="_blank" >}}Source{{< /button >}}
+Source[^13]
 
 Instances:
 * https://codeberg.org/teddit/teddit#instances
 
 # Rimgo (Imgur alternative)
 
-{{< button href="https://codeberg.org/video-prize-ranch/rimgo" target="_blank" >}}Source{{< /button >}}
+Source[^14]
 
 Instances:
 * https://codeberg.org/video-prize-ranch/rimgo#instances
 
+---
+{data-content = "footnotes"}
 
-[1]: https://blog.gitea.io/2022/07/gitea-1.17.0-is-released/
+[^1]: https://invidious.io
+[^2]: https://github.com/zedeus/nitter
+[^3]: https://joinpeertube.org
+[^4]: https://joinmastodon.org
+[^5]: https://pixelfed.org
+[^6]: https://codeberg.org
+[^7]: https://woodpecker-ci.org
+[^8]: https://gitea.io/en-us/
+[^9]: https://blog.gitea.io/2022/07/gitea-1.17.0-is-released/
+[^10]: https://codeberg.page
+[^11]: https://sr.ht/~cadence/bibliogram/
+[^12]: https://github.com/pablouser1/ProxiTok
+[^13]: https://codeberg.org/teddit/teddit
+[^14]: https://codeberg.org/video-prize-ranch/rimgo

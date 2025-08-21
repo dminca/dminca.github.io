@@ -12,14 +12,14 @@ categories: []
 I'll update this page with anything new 🆕 I find about `fish-shell` 🐟
 
 # Autosuggestions
-Bumped into [this one here][1]
+Bumped into this one here[^1]
 
 Apparently, after you enable some new completions you can run 
 `fish_update_completions` and `fish` parses man pages for possible commands
 and switches.
 
 # Setting an alias 'the right way' without slowing down your shell
-{{< button href="https://github.com/jorgebucaran/cookbook.fish#how-do-i-define-an-alias-in-fish" target="_blank" >}}Source{{< /button >}}
+Source[^6]
 
 Aliases created with `alias` will not be available in new shell sessions. If
 you want them to persist, use
@@ -34,8 +34,8 @@ Using `alias` inside `~/.config/fish/config.fish` will slow down your shell
 start as each alias/function will be eagerly loaded.
 
 To persist aliases across shell sessions, use `alias -s`, which will create a
-[`function`][3] and save it to `~/.config/fish/functions`. This takes advantage
-of fish function [lazy-loading / autoloading][4] mechanism.
+`function`[^2] and save it to `~/.config/fish/functions`. This takes advantage
+of fish function lazy-loading / autoloading[^3] mechanism.
 
 # Fish shell cheatsheet
 
@@ -94,7 +94,7 @@ history delete --case-sensitive --exact 'foo'
 
 # Check if variable is set
 
-{{< button href="https://fishshell.com/docs/current/cmds/set.html?highlight=set" target="_blank" >}}Source{{< /button >}}
+Source[^4]
 
 Test if an environment variable or a local variable from the script was set
 
@@ -108,7 +108,7 @@ end
 
 # Check if file exists
 
-{{< button href="https://fishshell.com/docs/current/cmds/test.html?highlight=test" target="_blank" >}}Source{{< /button >}}
+Source[^5]
 
 ```fish
 if test -e /bin/test
@@ -118,7 +118,12 @@ else
 end
 ```
 
+---
+{data-content = "footnotes"}
 
-[1]: https://mvolkmann.github.io/fish-article/#Autosuggestions
-[3]: https://fishshell.com/docs/current/cmds/function.html
-[4]: https://fishshell.com/docs/current/tutorial.html#autoloading-functions
+[^1]: https://mvolkmann.github.io/fish-article/#Autosuggestions
+[^2]: https://fishshell.com/docs/current/cmds/function.html
+[^3]: https://fishshell.com/docs/current/tutorial.html#autoloading-functions
+[^4]: https://fishshell.com/docs/current/cmds/set.html?highlight=set
+[^5]: https://fishshell.com/docs/current/cmds/test.html?highlight=test
+[^6]: https://github.com/jorgebucaran/cookbook.fish#how-do-i-define-an-alias-in-fish

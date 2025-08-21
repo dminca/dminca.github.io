@@ -8,10 +8,8 @@ tags:
 - tips
 ---
 
-{{< lead >}}
-`vim` is a double edged sword. Use it properly and you'll see the benefits,
+> `vim` is a double edged sword. Use it properly and you'll see the benefits,
 don't use it properly and it's just going to cause more pain and sorrow.
-{{< /lead >}}
 
 Handy vim cheatsheet: https://vim.rtorr.com
 
@@ -29,9 +27,7 @@ append a comma at the end
 ```
 
 
-{{< alert "lightbulb" >}}
-`'<,'>` assumes you selected text aka _visual select_
-{{< /alert >}}
+> `'<,'>` assumes you selected text aka _visual select_
 
 ```vim
 :'<,'>norm A,
@@ -187,8 +183,6 @@ Ever had those pesky trailing whitespaces? How about those on a newline? Well, t
 ```vim
 :%s/\s\+$//e
 ```
-{{< alert "lightbulb" >}}
-In a search,`\s` finds whitespace (a space or a tab), and `\+` finds one or more occurrences.
+> In a search,`\s` finds whitespace (a space or a tab), and `\+` finds one or more occurrences.
 The following command deletes any trailing whitespace at the end of each line. If no trailing whitespace is found no change occurs, and the `e` flag means no error is displayed
-{{< /alert >}}
 
