@@ -2,7 +2,8 @@
 title: "Things to Try"
 date: 2025-08-15T11:53:19+02:00
 draft: false
-description: "A checklist of things I would like to try out"
+description: A checklist of things I would like to try out
+summary: Collection of awesome tooling awesome to try out
 tags:
 - kubernetes
 - tryout
