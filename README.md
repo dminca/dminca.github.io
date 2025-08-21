@@ -1,4 +1,4 @@
-# Personal blog [![Deploy Hugo site to Pages](https://github.com/dminca/dminca.github.io/actions/workflows/hugo.yml/badge.svg)](https://github.com/dminca/dminca.github.io/actions/workflows/hugo.yml)
+# Personal blog [![Deploy Hugo site to Pages](https://github.com/dminca/dminca.github.io/actions/workflows/hugo.yml/badge.svg?branch=master)](https://github.com/dminca/dminca.github.io/actions/workflows/hugo.yml)
 
 ## Initial setup
 On a first clone, you'd wanna do it this way
