@@ -29,7 +29,7 @@ That's a question with many edges. I think the real questions should be:
 If the answer to the above questions is **No** then you know what **privacy**
 is about by this point.
 
-{{< peertube src="https://media.zat.im/videos/embed/35badfed-5322-48ac-b5c1-71b1ad88262e" >}}
+- https://media.zat.im/videos/embed/35badfed-5322-48ac-b5c1-71b1ad88262e
 
 # Improving your Web surfing experience
 
@@ -38,34 +38,49 @@ currently the only way we have full control, is to block ads, pop-ups and tracki
 
 ## Privacy redirect (browser extension)
 
-{{< button href="https://github.com/SimonBrazell/privacy-redirect" target="_blank" >}}Source{{< /button >}}
+Source[^1]
 
-Supported by {{< icon "firefox" >}} {{< icon "chrome" >}} {{< icon "edge" >}}
+Supported by
+- firefox
+- chrome
+- edge
 
 ## uBlock Origin (browser extension)
 
-{{< button href="https://github.com/gorhill/uBlock" target="_blank" >}}Source{{< /button >}}
+Source[^2]
 
-Supported by {{< icon "firefox" >}} {{< icon "chrome" >}} {{< icon "edge" >}} {{< icon "opera" >}}
+Supported by
+- firefox
+- chrome
+- edge
+- opera
 
 ## Privacy Redirect for Safari (€ 1.99 browser extension)
 
-{{< button href="https://github.com/smmr-software/privacy-redirect-safari" target="_blank" >}}Source{{< /button >}}
+Source[^3]
 
-Supported by {{< icon "safari" >}} {{< icon "apple" >}}
+Supported by
+- safari
+- apple
 
 ## Newpipe (Android app)
 
-{{< button href="https://newpipe.net" target="_blank" >}}Source{{< /button >}}
+https://newpipe.netSource[^4]
 
-Supported by {{< icon "android" >}}
+Supported by
+- android
 
 ## Freetube (Desktop app)
 
-{{< button href="https://freetubeapp.io" target="_blank" >}}Source{{< /button >}}
+Source[^5]
 
-Supported by {{< icon "windows" >}} {{< icon "apple" >}} {{< icon "ubuntu" >}}
-{{< icon "fedora" >}} {{< icon "flatpak" >}} {{< icon "linux" >}}
+Supported by
+- windows
+- apple
+- ubuntu
+- fedora
+- flatpak
+- linux
 
 # Detox your home WiFi LAN
 
@@ -74,19 +89,29 @@ some also install a heatsink. There are many opinions on heatsink's efficiency.
 To keep things simple, just get a <abbr title="Raspberry Pi 3">RPI3</abbr> kit, it contains everything you need to
 boot your OS.
 
-Flash [raspbian](https://www.raspbian.org) on the MicroSD card and continue to
-install and setup [PiHole](https://pi-hole.net).
+Flash raspbian[^6] on the MicroSD card and continue to
+install and setup PiHole[^7].
 
 Here are a few useful AdLists:
 * https://oisd.nl
 * https://github.com/Perflyst/PiHoleBlocklist
 
-{{< alert "lightbulb" >}}
-Not possible to block YouTube ads. Unfortunately they use a shitty strategy with
+> Not possible to block YouTube ads. Unfortunately they use a shitty strategy with
 a ton of domains and subdomains which is impossible to come up with a capture-all
 pattern. But the above browser extensions help you circumvent that -- it's currently
 the only solution.
-{{< /alert >}}
 
 Thus you'll have no more ads on your whole WiFi <abbr title="Local Area Network">LAN</abbr>
 so you can peacefully read those news articles without any pesky attention grabbers.
+
+---
+{data-content = "footnotes"}
+
+[^1]: https://github.com/SimonBrazell/privacy-redirect
+[^2]: https://github.com/gorhill/uBlock
+[^3]: https://github.com/smmr-software/privacy-redirect-safari
+[^4]: https://newpipe.net
+[^5]: https://freetubeapp.io
+[^6]: https://www.raspbian.org
+[^7]: https://pi-hole.net 
+

@@ -46,8 +46,7 @@ happening again.
 1. DHCP lease time: `1d`
 1. check **Advertise DNS server multiple times**
 
-{{< alert "lightbulb" >}}
-**Advertise DNS server multiple times** is needed here otherwise during
+> **Advertise DNS server multiple times** is needed here otherwise during
 DSL outages you'll suffer DNS issues, meaning if you try pinging the PiHole
 station you'll get
 
@@ -57,8 +56,6 @@ ping: sendto: No route to host
 ```
 
 There's no point to discuss what'll `nc -zv x.x.x.x 22` return.
-{{< /alert >}}
-
 
 # Modem (router) settings
 
@@ -79,11 +76,9 @@ There's no point to discuss what'll `nc -zv x.x.x.x 22` return.
 1. uncheck **DHCP-Server aktivieren**
 
 
-{{< alert "triangle-exclamation" >}}
-**DHCP-Server aktivieren** needs to be disabled because PiHole acts as DHCPv4
+> **DHCP-Server aktivieren** needs to be disabled because PiHole acts as DHCPv4
 server. This is needed in order to have **client hostnames** shown in PiHole
 dashboard.
-{{< /alert >}}
 
 # F.A.Q.
 

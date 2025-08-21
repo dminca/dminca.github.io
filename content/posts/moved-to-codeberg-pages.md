@@ -10,38 +10,22 @@ categories: []
 
 ## Add deprecation notice
 
-{{< figure
-    src="/gh03.png"
-    alt="Add deprecation notice in README.md"
-    caption="Let your audience know where you moved"
-    >}}
-
-Commit and [push it to your repo](https://github.com/dminca/dminca.github.io/commit/3f7244785acc93a47f849999fca78e4d19f522c3)
+Commit and push it to your repo[^1]
 
 ## Archive repo
 
-{{< alert "lightbulb" >}}
-It may be possible that before archiving you'd have to toggle Pages off.
+> It may be possible that before archiving you'd have to toggle Pages off.
 Unfortunately I can't see that option anymore since I've disabled it already. If
 that's the case and you find the option in repo Settings be sure to do that
 prior to archiving it.
-{{< /alert >}}
-
-{{< figure
-    src="/gh04.png"
-    alt="Archive the repository"
-    caption="Archive your repo to disable Pages"
-    >}}
 
 # Create Codeberg repo
 
-Head over to [codeberg.org](https://codeberg.org) and create **an empty repo** called `pages`,
+Head over to codeberg.org[^2] and create **an empty repo** called `pages`,
 you can follow the instructions from https://codeberg.page
 
-{{< alert "triangle-exclamation" >}}
-Remember that your `main`/`master` branch is where you'll store the generated
+> Remember that your `main`/`master` branch is where you'll store the generated
 website only. No markdown, no hugo files nothing. Only the result of site build.
-{{< /alert >}}
 
 Keep the repository empty for now, we'll come back to it later.
 
@@ -67,10 +51,9 @@ cp -vr ../public/** .
 # commit and push
 git add . ; git commit -m 'initial commit'; git push -u origin main
 ```
-{{< alert "circle-info" >}}
-Replace `<user>` with your codeberg username. Just set the Codeberg repo as the
+
+> Replace `<user>` with your codeberg username. Just set the Codeberg repo as the
 main remote.
-{{< /alert >}}
 
 The `public/` dir is where your website is dumped after `hugo` build, depending
 on your installation some may have it in `docs/` dir. Adjust this accordingly.
@@ -80,31 +63,29 @@ no importance as long as the repo settings point to it then your website will
 work perfectly fine.
 
 # Automate building your site
+
 Let's automate the above steps because repetitive tasks are not worth to be done
 by humans but rather by :robot:
+
 ## Request Woodpecker CI access
 
-Head over to [codeberg-ci/request-access](https://codeberg.org/Codeberg-CI/request-access)
-and [request Woodpecker CI access](https://codeberg.org/Codeberg-CI/request-access/issues/new).
+Head over to codeberg-ci/request-access[^3]
+and request Woodpecker CI access[^4]
 
-You could also [donate to Codeberg](https://codeberg.org/Codeberg/org/src/branch/main/Imprint.md#sepa-iban-for-donations) to support them paying for the infra.
+You could also donate to Codeberg[^5] to support them paying for the infra.
 
 ## Configure pipeline
 
-{{< alert "lightbulb" >}}
-You should have received your CI access to proceed with these steps.
-{{< /alert >}}
+> You should have received your CI access to proceed with these steps.
 
 We basically have to replicate the above steps in your <abbr title="Continous Integration">CI</abbr>
 and we do that by creating a file at repository root level `.woodpecker.yml`
 
-You can check out mine as an example [.woodpecker.yml](https://codeberg.org/dminca/pages/src/branch/hugo/.woodpecker.yml)
+You can check out mine as an example `.woodpecker.yml`[^6].
 
-{{< alert "triangle-exclamation" >}}
-Mine is configured with `master` (lines 18,20,26) as the main branch. Adjust this accordingly.
-{{< /alert >}}
+> Mine is configured with `master` (lines 18,20,26) as the main branch. Adjust this accordingly.
 
-{{< highlight python "linenos=table,hl_lines=12 18 20 26,linenostart=1" >}}
+```yml
 pipeline:
   build:
     image: klakegg/hugo:0.101.0-ext-alpine-onbuild
@@ -134,9 +115,9 @@ pipeline:
     when:
       event: push
       branch: hugo
-{{< / highlight >}}
+```
 
-This pipeline was inspired from [codeberg.org/Codeberg-CI/examples](https://codeberg.org/Codeberg-CI/examples/src/branch/main/Hugo/hugo.yml).
+This pipeline was inspired from codeberg.org/Codeberg-CI/examples[^7].
 
 For the <abbr title="Continous Integration">CI</abbr> runner to have push access
 to the repo
@@ -147,18 +128,32 @@ to the repo
 And that's all! Congratulations, you've successfully migrated from GH Pages to
 Codeberg Pages.
 
-You can brag on their matrix channel [#codeberg.org:matrix.org](https://matrix.to/#/#codeberg.org:matrix.org) that you're all set-up.
+You can brag on their matrix channel #codeberg.org:matrix.org[^8] that you're all set-up.
 
 # Bonus tips
-* Store your assets (ie. pictures, pdfs) with [`git-lfs`](https://git-lfs.github.com)
+* Store your assets (ie. pictures, pdfs) with `git-lfs`[^9]
 so that your repo doesn't become more sluggish. I've configured mine for pictures
-[.gitattributes](https://codeberg.org/dminca/pages/src/branch/hugo/.gitattributes), also
-you can check the [README.md](https://codeberg.org/dminca/pages/src/branch/hugo/README.md) for `git lfs` initial instructions
-* ignore build directory on your `hugo` branch, [for example](https://codeberg.org/dminca/pages/compare/f6791243ca942e940b7d71bdc3bb6ac031c8620e..3411f60c15a112af70760ba7f64e79fd5900bd3f)
+.gitattributes[^10], also
+you can check the README.md[^11] for `git lfs` initial instructions
+* ignore build directory on your `hugo` branch, for example[^12]
 
-{{< alert "lightbulb" >}}
-Ignoring the build dir in your `hugo` branch will help keeping your commit
+> Ignoring the build dir in your `hugo` branch will help keeping your commit
 history sane and in the event of introducing new content you won't have to commit
 a whole chunk of HTML, CSS and all other unrelated stuff, just your markdown
 file containing your blog post.
-{{< /alert >}}
+
+---
+{data-content = "footnotes"}
+
+[^1]: https://github.com/dminca/dminca.github.io/commit/3f7244785acc93a47f849999fca78e4d19f522c3
+[^2]: https://codeberg.org
+[^3]: https://codeberg.org/Codeberg-CI/request-access
+[^4]: https://codeberg.org/Codeberg-CI/request-access/issues/new
+[^5]: https://codeberg.org/Codeberg/org/src/branch/main/Imprint.md#sepa-iban-for-donations
+[^6]: https://codeberg.org/dminca/pages/src/branch/hugo/.woodpecker.yml
+[^7]: https://codeberg.org/Codeberg-CI/examples/src/branch/main/Hugo/hugo.yml
+[^8]: https://matrix.to/#/#codeberg.org:matrix.org
+[^9]: https://git-lfs.github.com
+[^10]: https://codeberg.org/dminca/pages/src/branch/hugo/.gitattributes
+[^11]: https://codeberg.org/dminca/pages/src/branch/hugo/README.md
+[^12]: https://codeberg.org/dminca/pages/compare/f6791243ca942e940b7d71bdc3bb6ac031c8620e..3411f60c15a112af70760ba7f64e79fd5900bd3f

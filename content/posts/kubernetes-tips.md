@@ -15,7 +15,7 @@ objects.
 kubectl get controllerrevisions --all-namespaces
 ```
 
-These revisions allow [rolling back][1] `StatefulSet` by running
+These revisions allow rolling back[^1] `StatefulSet` by running
 
 ```sh
 kubectl rollout undo
@@ -23,7 +23,7 @@ kubectl rollout undo
 
 Different from `Deployment` which capture the state in `ReplicaSet`
 
-kudos [Sheogorath](https://shivering-isles.com/til/2024/01/statefulset-revisions)
+kudos Sheogorath[^2]
 
 # Get events for a certain Pod
 
@@ -37,10 +37,8 @@ kubectl get events --field-selector involvedObject.name=<pod-name>
 kubectl get events --field-selector involvedObject.kind=<resource-name>,involvedObject.name=<object-name>
 ```
 
-{{< alert "circle-info" >}}
 * <mark>resource-name</mark> could be `Pod`, `Job`, `CronJob` etc.
 * <mark>object-name</mark> the name of resource
-{{< /alert >}}
 
 # Delete a PVC stuck in "Terminating" state
 
@@ -58,18 +56,16 @@ the removal of finalizer field.
 kubectl patch pvc <pvc-name> -p '{"metadata":{"finalizers":null}}'
 ```
 
-{{< button href="https://github.com/kubernetes/kubernetes/issues/69697" target="_blank" >}}Source{{< /button >}}
+Source[^3]
 
-Also kudos [Dean Lewis](https://veducate.co.uk/kubernetes-pvc-terminating/)
+Also kudos Dean Lewis[^4]
 
 # Delete a Pod stuck in "Terminating" state
 
-{{< alert "triangle-exclamation" >}}
-This is a dangerous operation. Be prepared in case you might corrupt the ETCD
+> This is a dangerous operation. Be prepared in case you might corrupt the ETCD
 database and have a backup. These resources might be in handy:
 - https://kubernetes.io/docs/tasks/administer-cluster/configure-upgrade-etcd/#replacing-a-failed-etcd-member
 - https://kubernetes.io/docs/tasks/administer-cluster/configure-upgrade-etcd/#securing-communication
-{{< /alert >}}
 
 
 If you did everything in order to delete a Pod, meaning delete its dependencies
@@ -107,5 +103,10 @@ ETCDCTL_API=3 etcdctl --endpoints=https://10.11.68.181:2379,https://10.11.68.226
   del "/registry/pods/default/oops-im-stuck-1234"
 ```
 
-[1]: https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands#-em-undo-em-
+---
+{data-content = "footnotes"}
 
+[^1]: https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands#-em-undo-em-
+[^2]: https://shivering-isles.com/til/2024/01/statefulset-revisions
+[^3]: https://github.com/kubernetes/kubernetes/issues/69697
+[^4]: https://veducate.co.uk/kubernetes-pvc-terminating/
