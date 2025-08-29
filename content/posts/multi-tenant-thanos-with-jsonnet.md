@@ -54,7 +54,7 @@ By default, `jsonnet -J vendor -m manifests example.jsonnet` command will dump
 JSON files in the `./manifests` dir.
 
 The `-J vendor` flag we're passing instructs jsonnet _where to find the
-dependencies we've pulled from the net.
+dependencies_ we've pulled from the net.
 
 Therefore, we're going to need [gotojsonyaml][9] to convert the JSON files to
 Kubernetes YAML manifests, as seen [in this `build.sh` script][10] that everyone
