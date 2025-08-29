@@ -146,7 +146,18 @@ deployments:
 Use `vars/common.yml` and `vars/prd.yml` to define environment specific variables
 for Kluctl to use.
 
-The rest of the project can be structured depending on what's needed
+# Wrap-up
+
+What did we achieve in the first part
+1. we've set-up our development environment to make it easier to develop in Jsonnet
+2. we've setup a basic directory structure for working with `kluctl` in the next parts
+
+Stay tuned, in the next part we're going to adjust the project structure and
+make room for our tenants or even plan the whole tenant setup together. Think about
+questions like
+- how many teams are there?
+- do SREs need acccess to ALL the metrics?
+- and many others
 
 [1]: https://jsonnet.org
 [2]: https://thanos.io
