@@ -1,20 +1,24 @@
 ---
-title: "Multi-tenant Thanos with Jsonnet"
+title: "Part 1: Multi-tenant Thanos with Jsonnet"
 date: 2025-08-29T21:33:15+02:00
 draft: false
-description: "Deploy a multi-tenant monitoring architecture with Thanos and jsonnet"
+description: "Part 1 - Deploy a multi-tenant monitoring architecture with Thanos and jsonnet"
 tags:
 - kubernetes
 - tutorial
 - monitoring
 ---
 
+This guide has multiple parts, youre reading now **Part 1**. Had to do this to
+prevent the blog post from getting way too huge to manage and also not to tire
+the poor reader. The rest of the parts will be added below as they come
+
 It all started with the "what if's"
 
 - what if I don't need Helm to generate a shit ton of manifests and pick my
     brain on understanding whatever the fuck the author of the Chart wanted
     to say on this `_helpers.tmpl`
-- what I Kustomize is simply not enough for keeping my code DRY because I have
+- what if Kustomize is simply not enough for keeping my code DRY because I have
     to apply too much brain gymnastics to format my code according to
     Kustomize's requirements
 - what if THERE'S MORE THAN THAT?
