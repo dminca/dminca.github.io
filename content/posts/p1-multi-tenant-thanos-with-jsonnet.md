@@ -31,7 +31,7 @@ built upon. Generating **data**, be it YAML or JSON.
 
 # Toolchain
 
-Like all carpenters our there, you're gonna need some basic tooling to get this
+Like all carpenters out there, you're gonna need some basic tooling to get this
 story working
 - [Thanos][2]
 - [kluctl][3]
