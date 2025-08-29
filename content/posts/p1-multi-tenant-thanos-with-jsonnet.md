@@ -72,7 +72,7 @@ one can argue _it's just a starting point or example to get started_ BUT
 you'll notice the script craps-out midway while rendering through [kube-prometheus][7]
 `jsonnet` files ... 
 
-That's why I've wrote a small Go program helper to tackle this operation in a
+That's why I've written a small Go program helper to tackle this operation in a
 much safer and faster way see [codeberg.org/dminca/tiny-programs/jsonnet-convert][11]
 
 Shell scripts have been for a long time considered the _glue code_ of architecture
