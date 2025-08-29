@@ -1,7 +1,7 @@
 ---
 title: "Multi-tenant Thanos with Jsonnet"
 date: 2025-08-29T21:33:15+02:00
-draft: true
+draft: false
 description: "Deploy a multi-tenant monitoring architecture with Thanos and jsonnet"
 ---
 
@@ -87,7 +87,58 @@ Since we mentioned we're going to use [kluctl][3] to tackle the deployment of
 all generated manifests, we need to structure it in a way that's not getting
 too messy to get out of control, here's what I propose
 
-<!-- paste the directory from my working project -->
+```
+ .
+├──  kube-thanos-jsonnet
+│   ├──  manifests
+│   ├──  vendor
+│   ├──  first-tenant-example.jsonnet
+│   ├──  jsonnetfile.json
+│   ├──  jsonnetfile.lock.json
+│   ├──  kube-prometheus-example.jsonnet
+│   └──  thanos-example.jsonnet
+├──  vars
+│   ├──  common.yml
+│   └──  prd.yml
+├── 󰊢 .gitignore
+├──  .kluctl.yml
+├──  deployment.yml
+└── 󰂺 README.md
+```
+
+This is the _most basic kluctl_ project structure that you could come up with
+
+```yml
+# .kluctl.yml
+discriminator: "app.kubernetes.io/instance={{ target.name }}"
+
+targets:
+  - name: prd
+    context: production-kubernetes-cluster-fqdn
+    args: {}
+  - name: stg
+    context: staging-kubernetes-cluster-fqdn
+    args: {}
+```
+
+```yml
+# deployment.yml
+vars:
+  - file: ./vars/common.yml
+  - file: ./vars/{{ target.name }}.yml
+
+deployments:
+  - path: kube-thanos-base
+    git:
+      url: https://github.com/thanos-io/kube-thanos
+      ref: 6fedb045db2aeb0a4a880f77bfdfb5d4580f51f9
+      path: jsonnet
+```
+
+Use `vars/common.yml` and `vars/prd.yml` to define environment specific variables
+for Kluctl to use.
+
+The rest of the project can be structured depending on what's needed
 
 [1]: https://jsonnet.org
 [2]: https://thanos.io
