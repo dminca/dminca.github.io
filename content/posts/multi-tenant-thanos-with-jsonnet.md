@@ -3,6 +3,10 @@ title: "Multi-tenant Thanos with Jsonnet"
 date: 2025-08-29T21:33:15+02:00
 draft: false
 description: "Deploy a multi-tenant monitoring architecture with Thanos and jsonnet"
+tags:
+- kubernetes
+- tutorial
+- monitoring
 ---
 
 It all started with the "what if's"
