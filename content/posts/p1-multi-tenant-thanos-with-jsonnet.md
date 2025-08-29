@@ -17,7 +17,7 @@ It all started with the "what if's"
 
 - what if I don't need Helm to generate a shit ton of manifests and pick my
     brain on understanding whatever the fuck the author of the Chart wanted
-    to say on this `_helpers.tmpl`
+    to say on this `_helpers.tpl`
 - what if Kustomize is simply not enough for keeping my code DRY because I have
     to apply too much brain gymnastics to format my code according to
     Kustomize's requirements
