@@ -14,8 +14,8 @@ happening again.
 
 # AdLists
 
-1. https://raw.githubusercontent.com/TheShawnMiranda/LG-TV-Ad-Block/master/list
 1. https://big.oisd.nl
+1. https://perflyst.github.io/PiHoleBlocklist/SmartTV.txt
 
 # PiHole settings
 
