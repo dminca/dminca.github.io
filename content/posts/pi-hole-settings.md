@@ -226,7 +226,6 @@ server:
 For a more advanced and hardnened configuration
 
 ```conf
-
 server:
   # Logging
   verbosity: 0
@@ -251,7 +250,6 @@ server:
   harden-referral-path: yes
   aggressive-nsec: yes
   val-clean-additional: yes
-  auto-trust-anchor-file: "/var/lib/unbound/root.key"
 
   # Privacy
   hide-identity: yes
@@ -259,7 +257,6 @@ server:
   use-caps-for-id: yes
   qname-minimisation: yes
   qname-minimisation-strict: yes
-  send-client-subnet: 0
 
   # Cache & performance
   prefetch: yes
@@ -297,6 +294,13 @@ server:
   # If you ever listen beyond loopback:
   access-control: 127.0.0.0/8 allow
   access-control: ::1 allow
+```
+
+## Validate configuration and restart
+
+```sh
+sudo unbound-checkconf
+sudo systemctl start unbound
 ```
 
 [^1]: How to Set Up a Raspberry Pi Static IP Address - Pi My Life Up https://pimylifeup.com/raspberry-pi-static-ip-address/
