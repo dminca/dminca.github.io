@@ -178,6 +178,127 @@ ssh-keygen -R example.com
 
 1. retry SSH-ing again
 
+# `unbound` settings
+
+For a minimal configuration to kick things off
+
+```conf
+server:
+    verbosity: 0
+    interface: 127.0.0.1
+    port: 5335
+    do-ip4: yes
+    do-udp: yes
+    do-tcp: yes
+    do-ip6: yes
+
+    root-hints: "/var/lib/unbound/root.hints"
+    harden-glue: yes
+    harden-dnssec-stripped: yes
+    hide-identity: yes
+    hide-version: yes
+    use-caps-for-id: yes
+
+    prefetch: yes
+    prefetch-key: yes
+
+    qname-minimisation: yes
+    rrset-roundrobin: yes
+
+    cache-min-ttl: 3600
+    cache-max-ttl: 86400
+
+    unwanted-reply-threshold: 10000
+
+    edns-buffer-size: 1232
+    msg-cache-size: 50m
+    rrset-cache-size: 100m
+
+    private-address: 192.168.0.0/16
+    private-address: 10.0.0.0/8
+    private-address: 172.16.0.0/12
+    private-address: 127.0.0.0/8
+    private-address: ::1
+    private-address: fc00::/7
+    private-address: fe80::/10
+```
+
+For a more advanced and hardnened configuration
+
+```conf
+
+server:
+  # Logging
+  verbosity: 0
+
+  # Interfaces
+  interface: 127.0.0.1
+  interface: ::1          # add if Pi-hole uses IPv6 locally
+  port: 5335
+
+  # Protocols
+  do-ip4: yes
+  do-udp: yes
+  do-tcp: yes
+  do-ip6: yes
+
+  # Root hints (optional: remove to use built-ins)
+  root-hints: "/var/lib/unbound/root.hints"
+
+  # Security & DNSSEC
+  harden-glue: yes
+  harden-dnssec-stripped: yes
+  harden-referral-path: yes
+  aggressive-nsec: yes
+  val-clean-additional: yes
+  auto-trust-anchor-file: "/var/lib/unbound/root.key"
+
+  # Privacy
+  hide-identity: yes
+  hide-version: yes
+  use-caps-for-id: yes
+  qname-minimisation: yes
+  qname-minimisation-strict: yes
+  send-client-subnet: 0
+
+  # Cache & performance
+  prefetch: yes
+  prefetch-key: yes
+  rrset-roundrobin: yes
+
+  msg-cache-size: 50m
+  rrset-cache-size: 100m
+
+  cache-min-ttl: 300
+  cache-max-ttl: 86400
+  cache-max-negative-ttl: 3600
+
+  serve-expired: yes
+  serve-expired-ttl: 86400
+  serve-expired-reply-ttl: 30
+
+  edns-buffer-size: 1232
+  num-threads: 2
+  so-rcvbuf: 4m
+  so-sndbuf: 4m
+
+  # RRL (optional if strictly loopback)
+  ratelimit: 1000
+
+  # Private ranges (to avoid ECS/leakage)
+  private-address: 192.168.0.0/16
+  private-address: 10.0.0.0/8
+  private-address: 172.16.0.0/12
+  private-address: 127.0.0.0/8
+  private-address: ::1
+  private-address: fc00::/7
+  private-address: fe80::/10
+
+  # If you ever listen beyond loopback:
+  access-control: 127.0.0.0/8 allow
+  access-control: ::1 allow
+```
+
 [^1]: How to Set Up a Raspberry Pi Static IP Address - Pi My Life Up https://pimylifeup.com/raspberry-pi-static-ip-address/
 [^2]: How to give your Raspberry Pi a Static IP Address - UPDATE https://thepihut.com/blogs/raspberry-pi-tutorials/how-to-give-your-raspberry-pi-a-static-ip-address-update
 [^3]: Set a static IP address with nmtui on Raspberry Pi OS 12 'Bookworm' https://www.jeffgeerling.com/blog/2024/set-static-ip-address-nmtui-on-raspberry-pi-os-12-bookworm
