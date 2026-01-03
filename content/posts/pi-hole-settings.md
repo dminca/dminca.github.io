@@ -180,6 +180,8 @@ ssh-keygen -R example.com
 
 # `unbound` settings
 
+## Minimal configuration
+
 For a minimal configuration to kick things off
 
 ```conf
@@ -222,6 +224,8 @@ server:
     private-address: fc00::/7
     private-address: fe80::/10
 ```
+
+## Advanced configuration
 
 For a more advanced and hardnened configuration
 
